@@ -16,7 +16,7 @@ Given a string s, find the longest palindromic substring in s. You may assume th
         Output: "bb"
 */
 
-public class LongestPalindromicSubstring {
+public class Q5_LongestPalindromicSubstring {
     public String longestPalindrome(String s) {
         int n = s.length();
         if (n <= 1) {
@@ -65,6 +65,6 @@ public class LongestPalindromicSubstring {
     }
 
     public static void main(String[] args) {
-        System.out.println(new LongestPalindromicSubstring().longestPalindrome("abba"));
+        System.out.println(new Q5_LongestPalindromicSubstring().longestPalindrome("abba"));
     }
 }

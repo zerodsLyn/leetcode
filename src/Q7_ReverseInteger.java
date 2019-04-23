@@ -23,7 +23,7 @@ Given a 32-bit signed integer, reverse digits of an integer.
         For the purpose of this problem, assume that your function returns 0 when the reversed integer overflows.
 
 */
-public class ReverseInteger {
+public class Q7_ReverseInteger {
     public int reverse(int x) {
         if (x == Integer.MIN_VALUE) {
             return 0;
@@ -52,10 +52,10 @@ public class ReverseInteger {
 
     public static void main(String[] args) {
         int input_x = 123;
-        System.out.println(new ReverseInteger().reverse(input_x));
+        System.out.println(new Q7_ReverseInteger().reverse(input_x));
         input_x = -123;
-        System.out.println(new ReverseInteger().reverse(input_x));
+        System.out.println(new Q7_ReverseInteger().reverse(input_x));
         input_x = 120;
-        System.out.println(new ReverseInteger().reverse(input_x));
+        System.out.println(new Q7_ReverseInteger().reverse(input_x));
     }
 }

@@ -15,7 +15,7 @@
  * @author gengchao05
  * create on 2019/04/07
  */
-public class AddTwoNumbers {
+public class Q2_AddTwoNumbers {
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
         // 添加哨兵
         ListNode result = new ListNode(0);
@@ -67,6 +67,6 @@ public class AddTwoNumbers {
         l2.next.next = new ListNode(4);
         l2.next.next.next = new ListNode(4);
 
-        System.out.println(new AddTwoNumbers().addTwoNumbers(l1, l2));
+        System.out.println(new Q2_AddTwoNumbers().addTwoNumbers(l1, l2));
     }
 }

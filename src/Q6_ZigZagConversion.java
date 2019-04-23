@@ -29,7 +29,7 @@ Explanation:
         P     I
 */
 
-public class ZigZagConversion {
+public class Q6_ZigZagConversion {
     public String convert(String s, int numRows) {
         if (numRows == 1) { return s; }
 
@@ -74,6 +74,6 @@ public class ZigZagConversion {
     }
 
     public static void main(String[] args) {
-        System.out.println(new ZigZagConversion().convert("ABC", 2));
+        System.out.println(new Q6_ZigZagConversion().convert("ABC", 2));
     }
 }

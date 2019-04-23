@@ -1,5 +1,3 @@
-import java.util.Map;
-
 /**
  * @author gengchao05
  * create on 2019/04/10
@@ -20,7 +18,7 @@ import java.util.Map;
             nums2 = [3, 4]
             The median is (2 + 3)/2 = 2.5
 */
-public class MedianOfTwoSortedArrays {
+public class Q4_MedianOfTwoSortedArrays {
     public double findMedianSortedArrays(int[] nums1, int[] nums2) {
         int[] result = null;
         if (nums1 == null && nums2 == null) {
@@ -155,6 +153,6 @@ public class MedianOfTwoSortedArrays {
     public static void main(String[] args) {
         int[] nums1 = new int[] {1,2,3,3};
         int[] nums2 = new int[] {2,4,4,4,5,6,9};
-        System.out.println(new MedianOfTwoSortedArrays().findMedianSortedArrays(nums1, nums2));
+        System.out.println(new Q4_MedianOfTwoSortedArrays().findMedianSortedArrays(nums1, nums2));
     }
 }

@@ -1,7 +1,5 @@
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.Map;
-import java.util.Set;
 
 /**
  * @author gengchao05
@@ -30,7 +28,7 @@ Given a string, find the length of the longest substring without repeating chara
 */
 
 
-public class LongestSubstringWithoutRepeatingCharacters {
+public class Q3_LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         int length = s.length();
         if (length <= 1) {
@@ -64,10 +62,10 @@ public class LongestSubstringWithoutRepeatingCharacters {
     }
 
     public static void main(String[] args) {
-        System.out.println(new LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("abcabcbb"));
-        System.out.println(new LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("bbbbb"));
-        System.out.println(new LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("pwwkew"));
-        System.out.println(new LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("abcae"));
-        System.out.println(new LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("aabcceda"));
+        System.out.println(new Q3_LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("abcabcbb"));
+        System.out.println(new Q3_LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("bbbbb"));
+        System.out.println(new Q3_LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("pwwkew"));
+        System.out.println(new Q3_LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("abcae"));
+        System.out.println(new Q3_LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("aabcceda"));
     }
 }

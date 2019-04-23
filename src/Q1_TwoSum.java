@@ -17,7 +17,7 @@ import java.util.Map;
  * @author gengchao05
  * create on 2019/04/06
  */
-public class TwoSum {
+public class Q1_TwoSum {
     public int[] twoSum(int[] nums, int target) {
         int[] result = new int[]{};
         Map<Integer, Integer> num2Index = new HashMap<Integer, Integer>();
@@ -40,6 +40,6 @@ public class TwoSum {
     public static void main(String[] args) {
         final int[] nums = new int[] {3,3};
         int target = 6;
-        System.out.println(Arrays.toString(new TwoSum().twoSum(nums, target)));
+        System.out.println(Arrays.toString(new Q1_TwoSum().twoSum(nums, target)));
     }
 }
