@@ -2,27 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ad660e1-72dc-482c-90b7-2230bf33d4f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Q10_RegularExpressionMatching.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q11_ContainerWithMostWater.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q12_Integer2Roman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q13_Roman2Integer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q8_String2Integer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q9_PalindromeNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q14_LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q15_3Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q16_3SumClosest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q22_GenerateParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/AddTwoNumbers.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LongestPalindromicSubstring.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/LongestSubstringWithoutRepeatingCharacters.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/MedianOfTwoSortedArrays.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/ReverseInteger.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/TwoSum.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/leetcode/ZigZagConversion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q2_AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q5_LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q3_LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q4_MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q7_ReverseInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q1_TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ZigZagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q6_ZigZagConversion.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,35 +19,35 @@
     <session id="1685493257">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
-          <entry key="project.open.time.0" value="3" />
+          <entry key="project.closed" value="16" />
+          <entry key="project.open.time.0" value="5" />
           <entry key="project.open.time.1" value="4" />
-          <entry key="project.open.time.2" value="3" />
-          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.2" value="4" />
+          <entry key="project.open.time.3" value="2" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="16" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="35" />
+          <entry key="java" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="35" />
+          <entry key="JAVA" value="46" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="39" />
-          <entry key="java" value="13104" />
+          <entry key="java" value="17025" />
           <entry key="txt" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="13104" />
+          <entry key="JAVA" value="17025" />
           <entry key="PLAIN_TEXT" value="45" />
         </counts>
       </usages-collector>
@@ -71,20 +55,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Q13_Roman2Integer.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Q15_3Sum.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="50" selection-start-line="50" selection-end-line="111" selection-end-column="5" />
+            <state relative-caret-position="780">
+              <caret line="30" selection-start-line="30" selection-end-line="36" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Q12_Integer2Roman.java">
+        <entry file="file://$PROJECT_DIR$/src/Q16_3SumClosest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1103">
-              <caret line="139" column="30" lean-forward="true" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+            <state relative-caret-position="249">
+              <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Q22_GenerateParentheses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="27" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#605#606#0" expanded="true" />
+                <element signature="e#693#694#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="134" column="25" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -126,6 +136,10 @@
         <option value="$PROJECT_DIR$/src/Q1_TwoSum.java" />
         <option value="$PROJECT_DIR$/src/Q12_Integer2Roman.java" />
         <option value="$PROJECT_DIR$/src/Q13_Roman2Integer.java" />
+        <option value="$PROJECT_DIR$/src/Q14_LongestCommonPrefix.java" />
+        <option value="$PROJECT_DIR$/src/Q15_3Sum.java" />
+        <option value="$PROJECT_DIR$/src/Q16_3SumClosest.java" />
+        <option value="$PROJECT_DIR$/src/Q22_GenerateParentheses.java" />
       </list>
     </option>
   </component>
@@ -161,7 +175,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,15 +199,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555935861943" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1557323416042" />
     <property name="settings.editor.selected.configurable" value="editing.templates" />
   </component>
   <component name="RunDashboard">
@@ -206,28 +220,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Q13_Roman2Integer">
-    <configuration name="Q10_RegularExpressionMatching" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q10_RegularExpressionMatching" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q11_ContainerWithMostWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q11_ContainerWithMostWater" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q12_Integer2Roman" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q12_Integer2Roman" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q22_GenerateParentheses">
     <configuration name="Q13_Roman2Integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q13_Roman2Integer" />
       <module name="leetcode" />
@@ -235,27 +228,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q9_PalindromeNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q9_PalindromeNumber" />
+    <configuration name="Q14_LongestCommonPrefix" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q14_LongestCommonPrefix" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q15_3Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q15_3Sum" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q16_3SumClosest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q16_3SumClosest" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q22_GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q22_GenerateParentheses" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Q9_PalindromeNumber" />
-      <item itemvalue="Application.Q10_RegularExpressionMatching" />
-      <item itemvalue="Application.Q11_ContainerWithMostWater" />
-      <item itemvalue="Application.Q12_Integer2Roman" />
       <item itemvalue="Application.Q13_Roman2Integer" />
+      <item itemvalue="Application.Q14_LongestCommonPrefix" />
+      <item itemvalue="Application.Q15_3Sum" />
+      <item itemvalue="Application.Q16_3SumClosest" />
+      <item itemvalue="Application.Q22_GenerateParentheses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q22_GenerateParentheses" />
+        <item itemvalue="Application.Q16_3SumClosest" />
+        <item itemvalue="Application.Q15_3Sum" />
+        <item itemvalue="Application.Q14_LongestCommonPrefix" />
         <item itemvalue="Application.Q13_Roman2Integer" />
-        <item itemvalue="Application.Q12_Integer2Roman" />
-        <item itemvalue="Application.Q11_ContainerWithMostWater" />
-        <item itemvalue="Application.Q10_RegularExpressionMatching" />
-        <item itemvalue="Application.Q9_PalindromeNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -278,6 +292,10 @@
       <workItem from="1555499067560" duration="6700000" />
       <workItem from="1555592743851" duration="4709000" />
       <workItem from="1555929443095" duration="6312000" />
+      <workItem from="1556028492790" duration="1831000" />
+      <workItem from="1556117478298" duration="3719000" />
+      <workItem from="1556192043617" duration="7291000" />
+      <workItem from="1557320875916" duration="2728000" />
     </task>
     <task id="LOCAL-00001" summary="push">
       <created>1554566430124</created>
@@ -290,13 +308,13 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62920000" />
+    <option name="totallyTimeSpent" value="78489000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1440" y="-59" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993804" visible="true" weight="0.045260917" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4993804" weight="0.12087327" />
       <window_info id="Image Layers" order="1" />
       <window_info id="UI Designer" order="2" />
       <window_info id="Spring" order="3" side_tool="true" weight="0.5007153" />
@@ -312,12 +330,12 @@
       <window_info anchor="bottom" id="Check dependencies version" order="2" side_tool="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" weight="0.4273743" />
-      <window_info anchor="bottom" id="Run" order="5" weight="0.2866242" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.42887473" />
+      <window_info anchor="bottom" id="Run" order="5" weight="0.23036094" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.42781317" />
       <window_info anchor="bottom" id="Cvs" order="7" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="8" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.32590234" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.67622083" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.67493796" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="TODO" order="12" weight="0.32961586" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.48044693" />
@@ -470,8 +488,40 @@
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Q14_LongestCommonPrefix.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Q16_3SumClosest.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Q16_3SumClosest.java</url>
+          <line>42</line>
+          <properties />
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>strs[i].length()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>strs[i]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/Main.java" />
@@ -622,17 +672,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Q12_Integer2Roman.java">
+    <entry file="file://$PROJECT_DIR$/src/Q13_Roman2Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1103">
-          <caret line="139" column="30" lean-forward="true" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+        <state relative-caret-position="306">
+          <caret line="68" column="67" selection-start-line="68" selection-start-column="67" selection-end-line="68" selection-end-column="67" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Q13_Roman2Integer.java">
+    <entry file="file://$PROJECT_DIR$/src/Q12_Integer2Roman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="50" selection-start-line="50" selection-end-line="111" selection-end-column="5" />
+        <state relative-caret-position="690">
+          <caret line="139" column="30" selection-start-line="139" selection-start-column="30" selection-end-line="139" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Q14_LongestCommonPrefix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="86">
+          <caret line="11" column="20" lean-forward="true" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="175" column="11" selection-start-line="175" selection-start-column="11" selection-end-line="175" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="105" column="11" selection-start-line="105" selection-start-column="11" selection-end-line="105" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="259">
+          <caret line="1901" column="24" selection-start-line="1901" selection-start-column="24" selection-end-line="1901" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Q15_3Sum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="30" selection-start-line="30" selection-end-line="36" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Q16_3SumClosest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="22" column="20" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Q22_GenerateParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="27" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#605#606#0" expanded="true" />
+            <element signature="e#693#694#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/StringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="134" column="25" selection-start-line="134" selection-start-column="25" selection-end-line="134" selection-end-column="25" />
         </state>
       </provider>
     </entry>
