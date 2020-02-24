@@ -2,13 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ad660e1-72dc-482c-90b7-2230bf33d4f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Q215_KthLargestElementInAnArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q33_SearchInRotatedSortedArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="208" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -66,7 +82,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q215_KthLargestElementInAnArray">
+  <component name="RunManager" selected="Application.Q33_SearchInRotatedSortedArray">
     <configuration name="Q215_KthLargestElementInAnArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q215_KthLargestElementInAnArray" />
       <module name="leetcode" />
@@ -74,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q232_ImplementQueueUsingStacks" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q232_ImplementQueueUsingStacks" />
+    <configuration name="Q33_SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q33_SearchInRotatedSortedArray" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -103,19 +119,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Q232_ImplementQueueUsingStacks" />
       <item itemvalue="Application.Q496_NextGreaterElementI" />
       <item itemvalue="Application.Q682_BaseballGame" />
       <item itemvalue="Application.Q844_BackspaceStringCompare" />
       <item itemvalue="Application.Q215_KthLargestElementInAnArray" />
+      <item itemvalue="Application.Q33_SearchInRotatedSortedArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q33_SearchInRotatedSortedArray" />
         <item itemvalue="Application.Q215_KthLargestElementInAnArray" />
         <item itemvalue="Application.Q844_BackspaceStringCompare" />
         <item itemvalue="Application.Q682_BaseballGame" />
         <item itemvalue="Application.Q496_NextGreaterElementI" />
-        <item itemvalue="Application.Q232_ImplementQueueUsingStacks" />
       </list>
     </recent_temporary>
   </component>
@@ -154,7 +170,8 @@
       <workItem from="1580919646165" duration="1118000" />
       <workItem from="1580921295191" duration="237000" />
       <workItem from="1580957714205" duration="4000" />
-      <workItem from="1582124275988" duration="2765000" />
+      <workItem from="1582124275988" duration="2801000" />
+      <workItem from="1582546217844" duration="4279000" />
     </task>
     <task id="LOCAL-00001" summary="push">
       <created>1554566430124</created>
@@ -174,38 +191,42 @@
     <option name="LAST_COMMIT_MESSAGE" value="push" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1388" height="226" key="GridCell.Tab.0.bottom" timestamp="1582126974272">
+    <state x="616" y="138" key="#xdebugger.evaluate" timestamp="1582549976844">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="226" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582126974272" />
-    <state width="1388" height="226" key="GridCell.Tab.0.center" timestamp="1582126974271">
+    <state x="616" y="138" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1582549976844" />
+    <state width="1388" height="195" key="GridCell.Tab.0.bottom" timestamp="1582551486024">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="226" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582126974271" />
-    <state width="1388" height="226" key="GridCell.Tab.0.left" timestamp="1582126974270">
+    <state width="1388" height="195" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582551486024" />
+    <state width="1388" height="195" key="GridCell.Tab.0.center" timestamp="1582551486023">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="226" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582126974270" />
-    <state width="1388" height="226" key="GridCell.Tab.0.right" timestamp="1582126974271">
+    <state width="1388" height="195" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1582551486023" />
+    <state width="1388" height="195" key="GridCell.Tab.0.left" timestamp="1582551486022">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="226" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582126974271" />
-    <state width="1388" height="226" key="GridCell.Tab.1.bottom" timestamp="1582126974275">
+    <state width="1388" height="195" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1582551486022" />
+    <state width="1388" height="195" key="GridCell.Tab.0.right" timestamp="1582551486023">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="226" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582126974275" />
-    <state width="1388" height="226" key="GridCell.Tab.1.center" timestamp="1582126974274">
+    <state width="1388" height="195" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1582551486023" />
+    <state width="1388" height="226" key="GridCell.Tab.1.bottom" timestamp="1582551470168">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="226" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582126974274" />
-    <state width="1388" height="226" key="GridCell.Tab.1.left" timestamp="1582126974273">
+    <state width="1388" height="226" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1582551470168" />
+    <state width="1388" height="226" key="GridCell.Tab.1.center" timestamp="1582551470166">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="226" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582126974273" />
-    <state width="1388" height="226" key="GridCell.Tab.1.right" timestamp="1582126974274">
+    <state width="1388" height="226" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1582551470166" />
+    <state width="1388" height="226" key="GridCell.Tab.1.left" timestamp="1582551470166">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="226" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582126974274" />
+    <state width="1388" height="226" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1582551470166" />
+    <state width="1388" height="226" key="GridCell.Tab.1.right" timestamp="1582551470167">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1388" height="226" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1582551470167" />
     <state x="388" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1580957715394">
       <screen x="39" y="23" width="1401" height="877" />
     </state>
@@ -214,6 +235,10 @@
       <screen x="39" y="23" width="1401" height="877" />
     </state>
     <state x="63" y="23" key="new project wizard/39.23.1401.877@39.23.1401.877" timestamp="1580920176029" />
+    <state x="299" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1582550851287">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="299" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1582550851287" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -373,22 +398,21 @@
           <line>21</line>
           <option name="timeStamp" value="90" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Q33_SearchInRotatedSortedArray.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Q33_SearchInRotatedSortedArray.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="debuggerHistoryManager">
-    <expressions id="evaluateExpression">
-      <expression>
-        <expression-string>strs[i].length()</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>strs[i]</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-    </expressions>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/leetcode$Q33_SearchInRotatedSortedArray.ic" NAME="Q33_SearchInRotatedSortedArray Coverage Results" MODIFIED="1582550021086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="masterDetails">
     <states>
