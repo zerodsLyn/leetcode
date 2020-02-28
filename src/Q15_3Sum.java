@@ -42,7 +42,7 @@ public class Q15_3Sum {
                 Integer second = nums[j];
                 List<Integer> indexs = int2IndexSet.get(-(first + second));
                 if (indexs != null && indexs.size() != 0  && indexs.get(indexs.size() - 1) > j) {
-                    List result = new ArrayList();
+                    List<Integer> result = new ArrayList<>();
                     result.add(first);
                     result.add(second);
                     result.add(-first-second);
@@ -61,9 +61,62 @@ public class Q15_3Sum {
 
     }
 
+    public List<List<Integer>> threeSum_2(int[] nums) {
+        if (nums == null || nums.length < 3) {
+            return new ArrayList<>();
+        }
+
+        List<List<Integer>> resultList = new ArrayList<>();
+        Arrays.sort(nums);
+        for (int i = 0; i < nums.length - 2; i++) {
+            if (i > 0) {
+                if (nums[i] == nums[i - 1]) {
+                    continue;
+                }
+            }
+            if (nums[i] > 0) {
+                break;
+            }
+
+            int j = i + 1;
+            int k = nums.length - 1;
+
+            while (j < k) {
+                boolean noJ = false;
+                boolean noK = false;
+                int sum = nums[i] + nums[j] + nums[k];
+                if (sum == 0) {
+                    List<Integer> result = new ArrayList<>();
+                    result.add(nums[i]);
+                    result.add(nums[j]);
+                    result.add(nums[k]);
+                    resultList.add(result);
+                    j++;
+                    k--;
+                } else if (sum > 0) {
+                    k--;
+                    noJ = true;
+                } else {
+                    j++;
+                    noK = true;
+                }
+
+                while (j > 1 && j < k && nums[j] == nums[j - 1] && !noJ) {
+                    j++;
+                }
+
+                while (k < nums.length - 1 && k > j && nums[k] == nums[k + 1] && !noK) {
+                    k--;
+                }
+            }
+        }
+
+        return resultList;
+    }
+
     public static void main(String[] args) {
-        System.out.println(new Q15_3Sum().threeSum(new int[]{-1, 0, 1, 2, -1, -4}));
-        System.out.println(new Q15_3Sum().threeSum(new int[]{0,0,0,0,0}));
-        System.out.println(new Q15_3Sum().threeSum(new int[]{9,9,7,-9,-7,0}));
+        System.out.println(new Q15_3Sum().threeSum_2(new int[]{-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6}));
+        System.out.println(new Q15_3Sum().threeSum_2(new int[]{0,0,0,0,0}));
+        System.out.println(new Q15_3Sum().threeSum_2(new int[]{9,9,7,-9,-7,0}));
     }
 }
