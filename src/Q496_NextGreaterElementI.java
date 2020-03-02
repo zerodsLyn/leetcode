@@ -1,16 +1,12 @@
 import java.util.*;
 
 /**
- * @author gengchao05
- * create on 2019/06/27
- *
- * You are given two arrays (without duplicates) nums1 and nums2
- * where nums1’s elements are subset of nums2. Find all the next
- * greater numbers for nums1's elements in the corresponding places of nums2.
- *
- * The Next Greater Number of a number x in nums1 is the first greater
- * number to its right in nums2. If it does not exist, output -1 for this number.
- *
+ * @author gengchao05 create on 2019/06/27
+ * <p>
+ * You are given two arrays (without duplicates) nums1 and nums2 where nums1’s elements are subset of nums2. Find all the next greater numbers for nums1's elements in the corresponding places of
+ * nums2.
+ * <p>
+ * The Next Greater Number of a number x in nums1 is the first greater number to its right in nums2. If it does not exist, output -1 for this number.
  */
 public class Q496_NextGreaterElementI {
     public int[] nextGreaterElement(int[] nums1, int[] nums2) {
@@ -59,8 +55,8 @@ public class Q496_NextGreaterElementI {
     }
 
     public static void main(String[] args) {
-        int[] nums1 = new int[] {4,1,2};
-        int[] nums2 = new int[] {1,3,4,2};
+        int[] nums1 = new int[]{4, 1, 2};
+        int[] nums2 = new int[]{1, 3, 4, 2};
 
         /*int[] nums1 = new int[] {2,4};
         int[] nums2 = new int[] {1,2,3,4};*/

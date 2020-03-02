@@ -1,6 +1,5 @@
 /**
- * @author gengchao05
- * create on 2019/04/16
+ * @author gengchao05 create on 2019/04/16
  */
 /*
 The string "PAYPALISHIRING" is written in a zigzag pattern on a given number of rows like this:
@@ -31,7 +30,9 @@ Explanation:
 
 public class Q6_ZigZagConversion {
     public String convert(String s, int numRows) {
-        if (numRows == 1) { return s; }
+        if (numRows == 1) {
+            return s;
+        }
 
         int length = s.length();
         char[][] board = new char[numRows][length];

@@ -1,6 +1,5 @@
 /**
- * @author gengchao05
- * create on 2019/06/26
+ * @author gengchao05 create on 2019/06/26
  */
 
 import java.util.Map;
@@ -22,7 +21,7 @@ public class Q20_ValidParentheses {
         Stack<Character> stack = new Stack<Character>();
         for (int i = 0; i < s.length(); i++) {
             char c = s.charAt(i);
-            if ('(' == c|| '[' == c || '{' == c) {
+            if ('(' == c || '[' == c || '{' == c) {
                 stack.push(c);
             } else {
                 Character peek = stack.isEmpty() ? ' ' : stack.peek();

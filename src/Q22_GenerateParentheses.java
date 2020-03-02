@@ -2,8 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author gengchao05
- * create on 2019/05/08
+ * @author gengchao05 create on 2019/05/08
  */
 public class Q22_GenerateParentheses {
     public List<String> generateParenthesis(int n) {
@@ -19,11 +18,11 @@ public class Q22_GenerateParentheses {
         }
 
         if (countL < n) {
-            addParanthesis(list, curStr+"(", countL+1, countR, n);
+            addParanthesis(list, curStr + "(", countL + 1, countR, n);
         }
 
         if (countR < countL) {
-            addParanthesis(list, curStr + ")", countL, countR+1, n);
+            addParanthesis(list, curStr + ")", countL, countR + 1, n);
         }
     }
 

@@ -1,6 +1,5 @@
 /**
- * @author gengchao05
- * create on 2019/04/10
+ * @author gengchao05 create on 2019/04/10
  */
 /*
 
@@ -45,8 +44,12 @@ public class Q4_MedianOfTwoSortedArrays {
         int mid = (m + n + 1) / 2;
 
         if (m > n) {
-            int[] temp = nums1; nums1 = nums2; nums2 = temp;
-            int tmp = m; m = n; n = tmp;
+            int[] temp = nums1;
+            nums1 = nums2;
+            nums2 = temp;
+            int tmp = m;
+            m = n;
+            n = tmp;
         }
 
         int i;
@@ -58,23 +61,31 @@ public class Q4_MedianOfTwoSortedArrays {
             j = mid - i;
             if (i > iMin && nums1[i - 1] > nums2[j]) {
                 iMax = i - 1;
-            }
-            else if (i < iMax && nums2[j - 1] > nums1[i]) {
+            } else if (i < iMax && nums2[j - 1] > nums1[i]) {
                 iMin = i + 1;
-            }
-            else {
+            } else {
                 int maxLeft;
                 // i = 0 代表左半边只有第二个数组的值，直接取最大值
-                if (i == 0) { maxLeft = nums2[j-1]; }
-                else if (j == 0) { maxLeft = nums1[i-1]; }
-                else { maxLeft = Math.max(nums1[i-1], nums2[j-1]); }
-                if ( (m + n) % 2 == 1 ) { return maxLeft; }
+                if (i == 0) {
+                    maxLeft = nums2[j - 1];
+                } else if (j == 0) {
+                    maxLeft = nums1[i - 1];
+                } else {
+                    maxLeft = Math.max(nums1[i - 1], nums2[j - 1]);
+                }
+                if ((m + n) % 2 == 1) {
+                    return maxLeft;
+                }
 
                 int minRight;
                 // i = m 代表右半边只有第二个数组的值，直接取最小值
-                if (i == m) { minRight = nums2[j]; }
-                else if (j == n) { minRight = nums1[i]; }
-                else { minRight = Math.min(nums2[j], nums1[i]); }
+                if (i == m) {
+                    minRight = nums2[j];
+                } else if (j == n) {
+                    minRight = nums1[i];
+                } else {
+                    minRight = Math.min(nums2[j], nums1[i]);
+                }
 
                 return (maxLeft + minRight) / 2.0;
             }
@@ -147,12 +158,12 @@ public class Q4_MedianOfTwoSortedArrays {
             }
         }
 
-        return  0.0;
+        return 0.0;
     }
 
     public static void main(String[] args) {
-        int[] nums1 = new int[] {1,2,3,3};
-        int[] nums2 = new int[] {2,4,4,4,5,6,9};
+        int[] nums1 = new int[]{1, 2, 3, 3};
+        int[] nums2 = new int[]{2, 4, 4, 4, 5, 6, 9};
         System.out.println(new Q4_MedianOfTwoSortedArrays().findMedianSortedArrays(nums1, nums2));
     }
 }

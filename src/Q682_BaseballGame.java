@@ -1,9 +1,8 @@
 import java.util.Stack;
 
 /**
- * @author gengchao05
- * create on 2019/06/27
- *
+ * @author gengchao05 create on 2019/06/27
+ * <p>
  * https://leetcode-cn.com/problems/baseball-game/
  */
 public class Q682_BaseballGame {
@@ -23,7 +22,7 @@ public class Q682_BaseballGame {
             } else if ("C".equals(op)) {
                 points.pop();
             } else {
-                points.push( Integer.parseInt(op));
+                points.push(Integer.parseInt(op));
             }
         }
         int sum = 0;
@@ -34,7 +33,7 @@ public class Q682_BaseballGame {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Q682_BaseballGame().calPoints(new String[]{"5","2","C","D","+"}));
-        System.out.println(new Q682_BaseballGame().calPoints(new String[]{"5","-2","4","C","D","9","+","+"}));
+        System.out.println(new Q682_BaseballGame().calPoints(new String[]{"5", "2", "C", "D", "+"}));
+        System.out.println(new Q682_BaseballGame().calPoints(new String[]{"5", "-2", "4", "C", "D", "9", "+", "+"}));
     }
 }

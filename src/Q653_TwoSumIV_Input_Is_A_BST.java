@@ -2,33 +2,22 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * Given a Binary Search Tree and a target number, return true if there exist two elements in the BST
- * such that their sum is equal to the given target.
- *
+ * Given a Binary Search Tree and a target number, return true if there exist two elements in the BST such that their sum is equal to the given target.
+ * <p>
  * Example 1:
- *
- * Input:
- *     5
- *    / \
- *   3   6
- *  / \   \
- * 2   4   7
- *
+ * <p>
+ * Input: 5 / \ 3   6 / \   \ 2   4   7
+ * <p>
  * Target = 9
- *
+ * <p>
  * Output: True
- *
+ * <p>
  * Example 2:
- *
- * Input:
- *     5
- *    / \
- *   3   6
- *  / \   \
- * 2   4   7
- *
+ * <p>
+ * Input: 5 / \ 3   6 / \   \ 2   4   7
+ * <p>
  * Target = 28
-
+ *
  * @author gengchao05 create on 2020/02/28
  */
 public class Q653_TwoSumIV_Input_Is_A_BST {

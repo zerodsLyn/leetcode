@@ -1,12 +1,9 @@
 import java.util.Stack;
 
 /**
- * @author gengchao05
- * create on 2019/06/2
- *
- * Given two strings S and T, return if they are equal when both are
- * typed into empty text editors. # means a backspace character.
- *
+ * @author gengchao05 create on 2019/06/2
+ * <p>
+ * Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character.
  */
 public class Q844_BackspaceStringCompare {
     public boolean backspaceCompare(String S, String T) {

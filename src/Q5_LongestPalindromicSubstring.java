@@ -1,6 +1,5 @@
 /**
- * @author gengchao05
- * create on 2019/04/11
+ * @author gengchao05 create on 2019/04/11
  */
 /*
 Given a string s, find the longest palindromic substring in s. You may assume that the maximum length of s is 1000.
@@ -26,7 +25,7 @@ public class Q5_LongestPalindromicSubstring {
             return s;
         }
 
-        String result = s.substring(0,1);
+        String result = s.substring(0, 1);
         for (int i = 0; i < n; i++) {
             String single = getLongestString(s, i, i);
             String two = getLongestString(s, i, i + 1);

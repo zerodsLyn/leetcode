@@ -1,6 +1,5 @@
 /**
- * @author gengchao05
- * create on 2019/06/13
+ * @author gengchao05 create on 2019/06/13
  */
 
 /**
@@ -35,7 +34,7 @@ public class Q141_LinkedListCycle {
         l1.next = new ListNode(4);
         l1.next.next = new ListNode(2);
         l1.next.next.next = l1.next;
-//        l1.next.next = l1;
+        //        l1.next.next = l1;
         System.out.println(new Q141_LinkedListCycle().hasCycle(l1));
     }
 }

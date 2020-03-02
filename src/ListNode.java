@@ -1,18 +1,19 @@
 /**
- * @author gengchao05
- * create on 2019/04/07
+ * @author gengchao05 create on 2019/04/07
  */
 public class ListNode {
     int val;
+
     ListNode next;
+
     ListNode(int x) { val = x; }
 
     @Override
     public String toString() {
         if (next == null) {
-            return val+"";
+            return val + "";
         } else {
-            return val+"->"+next.toString();
+            return val + "->" + next.toString();
         }
     }
 

@@ -1,8 +1,7 @@
 import java.util.*;
 
 /**
- * @author gengchao05
- * create on 2019/04/24
+ * @author gengchao05 create on 2019/04/24
  */
 /*
 Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0?
@@ -41,18 +40,18 @@ public class Q15_3Sum {
             for (int j = i + 1; j < nums.length - 1; j++) {
                 Integer second = nums[j];
                 List<Integer> indexs = int2IndexSet.get(-(first + second));
-                if (indexs != null && indexs.size() != 0  && indexs.get(indexs.size() - 1) > j) {
+                if (indexs != null && indexs.size() != 0 && indexs.get(indexs.size() - 1) > j) {
                     List<Integer> result = new ArrayList<>();
                     result.add(first);
                     result.add(second);
-                    result.add(-first-second);
+                    result.add(-first - second);
                     setSet.add(result);
                 }
                 if (first + second >= 0) {
                     break;
                 }
             }
-            if (first >=  0) {
+            if (first >= 0) {
                 break;
             }
         }
@@ -115,8 +114,8 @@ public class Q15_3Sum {
     }
 
     public static void main(String[] args) {
-        System.out.println(new Q15_3Sum().threeSum_2(new int[]{-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6}));
-        System.out.println(new Q15_3Sum().threeSum_2(new int[]{0,0,0,0,0}));
-        System.out.println(new Q15_3Sum().threeSum_2(new int[]{9,9,7,-9,-7,0}));
+        System.out.println(new Q15_3Sum().threeSum_2(new int[]{-4, -2, -2, -2, 0, 1, 2, 2, 2, 3, 3, 4, 4, 6, 6}));
+        System.out.println(new Q15_3Sum().threeSum_2(new int[]{0, 0, 0, 0, 0}));
+        System.out.println(new Q15_3Sum().threeSum_2(new int[]{9, 9, 7, -9, -7, 0}));
     }
 }

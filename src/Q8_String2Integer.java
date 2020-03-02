@@ -1,6 +1,5 @@
 /**
- * @author gengchao05
- * create on 2019/04/17
+ * @author gengchao05 create on 2019/04/17
  */
 /*
 
@@ -21,10 +20,14 @@ If no valid conversion could be performed, a zero value is returned.
 
 public class Q8_String2Integer {
     public int myAtoi(String str) {
-        if (str == null) {return 0;}
+        if (str == null) {
+            return 0;
+        }
         String trimStr = str.trim();
         int length = trimStr.length();
-        if (length == 0) {return 0;}
+        if (length == 0) {
+            return 0;
+        }
         int minus = 1;
         if (trimStr.charAt(0) == '+') {
             minus = 1;
@@ -54,7 +57,6 @@ public class Q8_String2Integer {
             trimStr = trimStr.substring(index);
         }
 
-
         if (!Character.isDigit(trimStr.charAt(0))) {
             return 0;
         }
@@ -80,11 +82,9 @@ public class Q8_String2Integer {
         if (lastNonDigitCharRemovedStr.length() > maxLongStr.length()) {
             return minus == -1 ? Integer.MIN_VALUE : Integer.MAX_VALUE;
         }
-        if (lastNonDigitCharRemovedStr.length() ==  maxLongStr.length()
-                && lastNonDigitCharRemovedStr.compareTo(maxLongStr) > 0) {
+        if (lastNonDigitCharRemovedStr.length() == maxLongStr.length() && lastNonDigitCharRemovedStr.compareTo(maxLongStr) > 0) {
             return minus == -1 ? Integer.MIN_VALUE : Integer.MAX_VALUE;
         }
-
 
         long val = Long.valueOf(lastNonDigitCharRemovedStr) % Long.MAX_VALUE;
         if (minus == 1 && val > Integer.MAX_VALUE) {
@@ -95,7 +95,7 @@ public class Q8_String2Integer {
             return Integer.MIN_VALUE;
         }
 
-        return Integer.valueOf(lastNonDigitCharRemovedStr)*minus;
+        return Integer.valueOf(lastNonDigitCharRemovedStr) * minus;
     }
 
     public static void main(String[] args) {

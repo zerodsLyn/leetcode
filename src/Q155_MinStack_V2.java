@@ -1,6 +1,5 @@
 /**
- * @author gengchao05
- * create on 2019/06/27
+ * @author gengchao05 create on 2019/06/27
  */
 
 import java.util.ArrayList;
@@ -17,6 +16,7 @@ import java.util.PriorityQueue;
  */
 public class Q155_MinStack_V2 {
     private ArrayList<Integer> stackData;
+
     private ArrayList<Integer> minStack;
 
     /** initialize your data structure here. */

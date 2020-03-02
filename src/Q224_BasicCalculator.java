@@ -1,6 +1,5 @@
 /**
- * @author gengchao05
- * create on 2019/06/27
+ * @author gengchao05 create on 2019/06/27
  */
 
 import java.util.Stack;

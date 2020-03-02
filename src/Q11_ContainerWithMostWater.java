@@ -1,6 +1,5 @@
 /**
- * @author gengchao05
- * create on 2019/04/22
+ * @author gengchao05 create on 2019/04/22
  */
 public class Q11_ContainerWithMostWater {
     public int maxArea(int[] height) {
@@ -23,7 +22,7 @@ public class Q11_ContainerWithMostWater {
     }
 
     public static void main(String[] args) {
-        int[] heights = new int[] {1,8,6,2,5,4,8,3,7};
+        int[] heights = new int[]{1, 8, 6, 2, 5, 4, 8, 3, 7};
         System.out.println(new Q11_ContainerWithMostWater().maxArea(heights));
     }
 }

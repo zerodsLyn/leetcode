@@ -1,6 +1,5 @@
 /**
- * @author gengchao05
- * create on 2019/04/17
+ * @author gengchao05 create on 2019/04/17
  */
 /*
 Determine whether an integer is a palindrome. An integer is a palindrome when it reads the same backward as forward.
