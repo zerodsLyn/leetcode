@@ -2,45 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4ad660e1-72dc-482c-90b7-2230bf33d4f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Q17_LetterCombinationsOfAPhoneNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q10_RegularExpressionMatching.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q10_RegularExpressionMatching.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q11_ContainerWithMostWater.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q11_ContainerWithMostWater.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q12_Integer2Roman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q12_Integer2Roman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q13_Roman2Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q13_Roman2Integer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q141_LinkedListCycle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q141_LinkedListCycle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q14_LongestCommonPrefix.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q14_LongestCommonPrefix.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q155_MinStack.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q155_MinStack.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q155_MinStack_V2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q155_MinStack_V2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q15_3Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q15_3Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q167_TwoSumII_InputArraySorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q167_TwoSumII_InputArraySorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q16_3SumClosest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q16_3SumClosest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q18_4Sum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q18_4Sum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q19_RemoveNthNodeFromEndOfList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q19_RemoveNthNodeFromEndOfList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q1_TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q1_TwoSum.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q206_ReverseLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q206_ReverseLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q20_ValidParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q20_ValidParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q215_KthLargestElementInAnArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q215_KthLargestElementInAnArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q21_MergeTwoSortedLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q21_MergeTwoSortedLists.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q224_BasicCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q224_BasicCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q22_GenerateParentheses.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q22_GenerateParentheses.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q232_ImplementQueueUsingStacks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q232_ImplementQueueUsingStacks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q2_AddTwoNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q2_AddTwoNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q33_SearchInRotatedSortedArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q33_SearchInRotatedSortedArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q3_LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q3_LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q496_NextGreaterElementI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q496_NextGreaterElementI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q4_MedianOfTwoSortedArrays.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q4_MedianOfTwoSortedArrays.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q5_LongestPalindromicSubstring.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q5_LongestPalindromicSubstring.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q653_TwoSumIV_Input_Is_A_BST.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q653_TwoSumIV_Input_Is_A_BST.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q682_BaseballGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q682_BaseballGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q6_ZigZagConversion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q6_ZigZagConversion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q7_ReverseInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q7_ReverseInteger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q844_BackspaceStringCompare.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q844_BackspaceStringCompare.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q876_MiddleOfTheLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q876_MiddleOfTheLinkedList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q8_String2Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q8_String2Integer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Q9_PalindromeNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Q9_PalindromeNumber.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SudokuSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TreeNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q217_CombinationSumIII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q39_CombinationSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q40_CombinationSumII.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Q77_Combinations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -117,21 +82,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Q17_LetterCombinationsOfAPhoneNumber">
-    <configuration name="Q15_3Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q15_3Sum" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Q167_TwoSumII_InputArraySorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q167_TwoSumII_InputArraySorted" />
-      <module name="leetcode" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Q217_CombinationSumIII">
     <configuration name="Q17_LetterCombinationsOfAPhoneNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Q17_LetterCombinationsOfAPhoneNumber" />
       <module name="leetcode" />
@@ -139,34 +90,48 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q18_4Sum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q18_4Sum" />
+    <configuration name="Q217_CombinationSumIII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q217_CombinationSumIII" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q33_SearchInRotatedSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q33_SearchInRotatedSortedArray" />
+    <configuration name="Q39_CombinationSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q39_CombinationSum" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q40_CombinationSumII" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q40_CombinationSumII" />
+      <module name="leetcode" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Q77_Combinations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q77_Combinations" />
       <module name="leetcode" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Q33_SearchInRotatedSortedArray" />
-      <item itemvalue="Application.Q15_3Sum" />
-      <item itemvalue="Application.Q167_TwoSumII_InputArraySorted" />
-      <item itemvalue="Application.Q18_4Sum" />
       <item itemvalue="Application.Q17_LetterCombinationsOfAPhoneNumber" />
+      <item itemvalue="Application.Q39_CombinationSum" />
+      <item itemvalue="Application.Q77_Combinations" />
+      <item itemvalue="Application.Q40_CombinationSumII" />
+      <item itemvalue="Application.Q217_CombinationSumIII" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Q217_CombinationSumIII" />
+        <item itemvalue="Application.Q40_CombinationSumII" />
+        <item itemvalue="Application.Q77_Combinations" />
+        <item itemvalue="Application.Q39_CombinationSum" />
         <item itemvalue="Application.Q17_LetterCombinationsOfAPhoneNumber" />
-        <item itemvalue="Application.Q18_4Sum" />
-        <item itemvalue="Application.Q167_TwoSumII_InputArraySorted" />
-        <item itemvalue="Application.Q15_3Sum" />
-        <item itemvalue="Application.Q33_SearchInRotatedSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +174,8 @@
       <workItem from="1582546217844" duration="4412000" />
       <workItem from="1582814705628" duration="192000" />
       <workItem from="1582814920302" duration="7972000" />
-      <workItem from="1583115166813" duration="6219000" />
+      <workItem from="1583115166813" duration="11126000" />
+      <workItem from="1583139836166" duration="4644000" />
     </task>
     <task id="LOCAL-00001" summary="push">
       <created>1554566430124</created>
@@ -245,68 +211,73 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="283" y="23" width="873" height="877" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1582856587193" />
-    <state width="449" height="546" key="DebuggerActiveHint" timestamp="1583134420015">
+    <state width="449" height="546" key="DebuggerActiveHint" timestamp="1583141203896">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="449" height="546" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1583134420015" />
+    <state width="449" height="546" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1583141203896" />
     <state width="419" height="546" key="DebuggerActiveHint/40.23.1400.877@40.23.1400.877" timestamp="1583133353304" />
-    <state width="1388" height="224" key="GridCell.Tab.0.bottom" timestamp="1583134497067">
+    <state width="1388" height="199" key="GridCell.Tab.0.bottom" timestamp="1583144595240">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="224" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583134497067" />
+    <state width="1388" height="199" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583144595240" />
     <state width="1388" height="226" key="GridCell.Tab.0.bottom/36.23.1404.877@36.23.1404.877" timestamp="1582551601145" />
     <state width="1348" height="193" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582857301223" />
-    <state width="1388" height="224" key="GridCell.Tab.0.center" timestamp="1583134497066">
+    <state width="1388" height="199" key="GridCell.Tab.0.center" timestamp="1583144595237">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="224" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583134497066" />
+    <state width="1388" height="199" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1583144595237" />
     <state width="1388" height="226" key="GridCell.Tab.0.center/36.23.1404.877@36.23.1404.877" timestamp="1582551601144" />
     <state width="1348" height="193" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1582857301223" />
-    <state width="1388" height="224" key="GridCell.Tab.0.left" timestamp="1583134497065">
+    <state width="1388" height="199" key="GridCell.Tab.0.left" timestamp="1583144595236">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="224" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583134497065" />
+    <state width="1388" height="199" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1583144595236" />
     <state width="1388" height="226" key="GridCell.Tab.0.left/36.23.1404.877@36.23.1404.877" timestamp="1582551601144" />
     <state width="1348" height="193" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1582857301223" />
-    <state width="1388" height="224" key="GridCell.Tab.0.right" timestamp="1583134497066">
+    <state width="1388" height="199" key="GridCell.Tab.0.right" timestamp="1583144595238">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="224" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583134497066" />
+    <state width="1388" height="199" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1583144595238" />
     <state width="1388" height="226" key="GridCell.Tab.0.right/36.23.1404.877@36.23.1404.877" timestamp="1582551601145" />
     <state width="1348" height="193" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1582857301223" />
-    <state width="1388" height="224" key="GridCell.Tab.1.bottom" timestamp="1583134497070">
+    <state width="1388" height="358" key="GridCell.Tab.1.bottom" timestamp="1583144568898">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="224" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583134497070" />
+    <state width="1388" height="358" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1583144568898" />
     <state width="1388" height="226" key="GridCell.Tab.1.bottom/36.23.1404.877@36.23.1404.877" timestamp="1582551601147" />
     <state width="1388" height="224" key="GridCell.Tab.1.bottom/40.23.1400.877@40.23.1400.877" timestamp="1582857301219" />
-    <state width="1388" height="224" key="GridCell.Tab.1.center" timestamp="1583134497069">
+    <state width="1388" height="358" key="GridCell.Tab.1.center" timestamp="1583144568897">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="224" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583134497069" />
+    <state width="1388" height="358" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1583144568897" />
     <state width="1388" height="226" key="GridCell.Tab.1.center/36.23.1404.877@36.23.1404.877" timestamp="1582551601146" />
     <state width="1388" height="224" key="GridCell.Tab.1.center/40.23.1400.877@40.23.1400.877" timestamp="1582857301218" />
-    <state width="1388" height="224" key="GridCell.Tab.1.left" timestamp="1583134497068">
+    <state width="1388" height="358" key="GridCell.Tab.1.left" timestamp="1583144568896">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="224" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583134497068" />
+    <state width="1388" height="358" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1583144568896" />
     <state width="1388" height="226" key="GridCell.Tab.1.left/36.23.1404.877@36.23.1404.877" timestamp="1582551601146" />
     <state width="1388" height="224" key="GridCell.Tab.1.left/40.23.1400.877@40.23.1400.877" timestamp="1582857301218" />
-    <state width="1388" height="224" key="GridCell.Tab.1.right" timestamp="1583134497069">
+    <state width="1388" height="358" key="GridCell.Tab.1.right" timestamp="1583144568897">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1388" height="224" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583134497069" />
+    <state width="1388" height="358" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1583144568897" />
     <state width="1388" height="226" key="GridCell.Tab.1.right/36.23.1404.877@36.23.1404.877" timestamp="1582551601147" />
     <state width="1388" height="224" key="GridCell.Tab.1.right/40.23.1400.877@40.23.1400.877" timestamp="1582857301219" />
     <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1582856590298">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1582856590298" />
-    <state x="389" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1582816026295">
-      <screen x="40" y="23" width="1400" height="877" />
+    <state x="359" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1583139836391">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="359" y="238" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583139836391" />
     <state x="388" y="255" key="com.intellij.ide.util.TipDialog/39.23.1401.877@39.23.1401.877" timestamp="1580957715394" />
     <state x="389" y="255" key="com.intellij.ide.util.TipDialog/40.23.1400.877@40.23.1400.877" timestamp="1582816026295" />
+    <state x="511" y="356" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583137317606">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="511" y="356" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1583137317606" />
     <state x="100" y="100" width="1240" height="700" key="dock-window-1" timestamp="1583115449091">
       <screen x="40" y="23" width="1400" height="877" />
     </state>
@@ -315,10 +286,10 @@
       <screen x="39" y="23" width="1401" height="877" />
     </state>
     <state x="63" y="23" key="new project wizard/39.23.1401.877@39.23.1401.877" timestamp="1580920176029" />
-    <state x="299" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1583131163262">
+    <state x="299" y="-1" width="840" height="1034" key="search.everywhere.popup" timestamp="1583135339964">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="299" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583131163262" />
+    <state x="299" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1583135339964" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -510,7 +481,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Q17_LetterCombinationsOfAPhoneNumber.java</url>
-          <line>112</line>
+          <line>105</line>
           <option name="timeStamp" value="105" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
@@ -518,11 +489,32 @@
           <line>24</line>
           <option name="timeStamp" value="106" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Q39_CombinationSum.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Q40_CombinationSumII.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Q40_CombinationSumII.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Q217_CombinationSumIII.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/leetcode$Q33_SearchInRotatedSortedArray.ic" NAME="Q33_SearchInRotatedSortedArray Coverage Results" MODIFIED="1582550021086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/leetcode$Q217_CombinationSumIII.ic" NAME="Q217_CombinationSumIII Coverage Results" MODIFIED="1583144382827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
   <component name="masterDetails">
     <states>
