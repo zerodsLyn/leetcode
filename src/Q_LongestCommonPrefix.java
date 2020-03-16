@@ -42,5 +42,8 @@ public class Q_LongestCommonPrefix {
         System.out.println(new Q_LongestCommonPrefix().longestCommonPrefix(new String[] {"acc","aaa","aaba"}));
         System.out.println(new Q_LongestCommonPrefix().longestCommonPrefix(new String[] {"flower", "flow", "flight"}));
         System.out.println(new Q_LongestCommonPrefix().longestCommonPrefix(new String[] {"dog","racecar","car"}));
+
+        StringBuilder stringBuilder = new StringBuilder();
+        stringBuilder.append('1');
     }
 }
