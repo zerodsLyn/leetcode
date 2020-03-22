@@ -14,7 +14,6 @@ public class Q945_Minimum_IncrementToMakeArrayUnique {
             int cur = A[i];
             if (cur == 0 && zeroFlag) {
                 zeroFlag = false;
-                continue;
             } else {
                 if (B[cur] == 0 && cur != 0) {
                     B[cur] = cur;
