@@ -196,6 +196,8 @@
       <workItem from="1584624862518" duration="272000" />
       <workItem from="1584711622439" duration="7317000" />
       <workItem from="1584805217272" duration="94000" />
+      <workItem from="1584890309828" duration="285000" />
+      <workItem from="1584959720362" duration="284000" />
     </task>
     <task id="LOCAL-00001" summary="push">
       <created>1554566430124</created>
@@ -357,11 +359,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583493105763" />
-    <state x="359" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1583422697391">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="388" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1584959720676">
+      <screen x="39" y="23" width="1401" height="877" />
     </state>
     <state x="359" y="238" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583422697391" />
-    <state x="388" y="255" key="com.intellij.ide.util.TipDialog/39.23.1401.877@39.23.1401.877" timestamp="1580957715394" />
+    <state x="388" y="255" key="com.intellij.ide.util.TipDialog/39.23.1401.877@39.23.1401.877" timestamp="1584959720676" />
     <state x="389" y="255" key="com.intellij.ide.util.TipDialog/40.23.1400.877@40.23.1400.877" timestamp="1582816026295" />
     <state x="511" y="356" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583137317606">
       <screen x="0" y="0" width="1440" height="900" />
