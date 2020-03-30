@@ -1,30 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4ad660e1-72dc-482c-90b7-2230bf33d4f4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Q_ReverseWordInString.java" afterDir="false" />
+    <list default="true" id="b0e1dee8-45c1-4862-bc70-0f59314ccdeb" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Q_LastNumInACircle.java" afterDir="false" />
     </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="CoverageViewManager">
-    <option name="myElementSize" value="191" />
+  <component name="FUSProjectUsageTrigger">
+    <session id="-176947564">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="230" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="230" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_DATA_SOURCES" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <option name="HIDDEN_KINDS">
-      <set />
-    </option>
-    <expand />
-    <select />
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Q_LastNumInACircle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,810 +61,281 @@
       </list>
     </option>
   </component>
-  <component name="FindBugs-IDEA-Workspace">
-    <toolWindowEditorPreview>false</toolWindowEditorPreview>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1XOaYnQoowRHTrraluhkYaqtoY4" />
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$PROJECT_DIR$/../../env/kafka" value="PREVIEW" />
+        <entry key="$USER_HOME$/study/redis-in-action-master/java" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/Q_LastNumInACircle.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" fullScreen="true">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
         <expanded-state>
-          <State />
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>CodeSpring CoreSpring</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring CoreSpring</id>
+          </State>
         </expanded-state>
         <selected-state>
           <State>
-            <id>Ali-Check</id>
+            <id>SpringJavaAutowiringInspection</id>
           </State>
         </selected-state>
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectViewState">
-    <option name="foldersAlwaysOnTop" value="false" />
-    <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
-    <option name="showLibraryContents" value="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="leetcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+    </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561710337312" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1585576591608" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="/usr/local/bin/node" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Rainbow Brackets" />
+    <property name="project.structure.side.proportion" value="0.19832985" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RecentsManager">
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-    </key>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
   </component>
-  <component name="RunManager" selected="Application.Q_ReverseWordInString">
-    <configuration name="Q146_LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q146_LRUCache" />
-      <module name="leetcode" />
+  <component name="RunManager">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q914_XOfAKindInADeckOfCards" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q914_XOfAKindInADeckOfCards" />
+    <configuration name="Q_LastNumInACircle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Q_LastNumInACircle" />
       <module name="leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q_MinKNums" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q_MinKNums" />
-      <module name="leetcode" />
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q_ReverseWordInString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q_ReverseWordInString" />
-      <module name="leetcode" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Q_StringContains" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Q_StringContains" />
-      <module name="leetcode" />
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <list>
-      <item itemvalue="Application.Q146_LRUCache" />
-      <item itemvalue="Application.Q_MinKNums" />
-      <item itemvalue="Application.Q_StringContains" />
-      <item itemvalue="Application.Q914_XOfAKindInADeckOfCards" />
-      <item itemvalue="Application.Q_ReverseWordInString" />
-    </list>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Q_ReverseWordInString" />
-        <item itemvalue="Application.Q914_XOfAKindInADeckOfCards" />
-        <item itemvalue="Application.Q_StringContains" />
-        <item itemvalue="Application.Q_MinKNums" />
-        <item itemvalue="Application.Q146_LRUCache" />
+        <item itemvalue="Application.Q_LastNumInACircle" />
       </list>
     </recent_temporary>
   </component>
-  <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_NON_PUBLIC" />
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="4ad660e1-72dc-482c-90b7-2230bf33d4f4" name="Default Changelist" comment="" />
-      <created>1554564771787</created>
+      <changelist id="b0e1dee8-45c1-4862-bc70-0f59314ccdeb" name="Default Changelist" comment="" />
+      <created>1585570285278</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1554564771787</updated>
-      <workItem from="1554564775862" duration="5154000" />
-      <workItem from="1554769894219" duration="897000" />
-      <workItem from="1554822777514" duration="21504000" />
-      <workItem from="1554985563438" duration="706000" />
-      <workItem from="1555327296340" duration="3812000" />
-      <workItem from="1555333162385" duration="5753000" />
-      <workItem from="1555379862815" duration="648000" />
-      <workItem from="1555413837798" duration="6658000" />
-      <workItem from="1555493729158" duration="67000" />
-      <workItem from="1555499067560" duration="6700000" />
-      <workItem from="1555592743851" duration="4709000" />
-      <workItem from="1555929443095" duration="6312000" />
-      <workItem from="1556028492790" duration="1831000" />
-      <workItem from="1556117478298" duration="3719000" />
-      <workItem from="1556192043617" duration="7291000" />
-      <workItem from="1557320875916" duration="2728000" />
-      <workItem from="1560416941256" duration="6393000" />
-      <workItem from="1561549765290" duration="874000" />
-      <workItem from="1561598476828" duration="3246000" />
-      <workItem from="1561637133306" duration="15598000" />
-      <workItem from="1561693359261" duration="1935000" />
-      <workItem from="1561702702088" duration="7634000" />
-      <workItem from="1561710762516" duration="153000" />
-      <workItem from="1561712180716" duration="1000" />
-      <workItem from="1561712228870" duration="70000" />
-      <workItem from="1580919646165" duration="1118000" />
-      <workItem from="1580921295191" duration="237000" />
-      <workItem from="1580957714205" duration="4000" />
-      <workItem from="1582124275988" duration="2801000" />
-      <workItem from="1582546217844" duration="4412000" />
-      <workItem from="1582814705628" duration="192000" />
-      <workItem from="1582814920302" duration="7972000" />
-      <workItem from="1583115166813" duration="11126000" />
-      <workItem from="1583139836166" duration="4867000" />
-      <workItem from="1583407170403" duration="399000" />
-      <workItem from="1583422537182" duration="133000" />
-      <workItem from="1583422696701" duration="286000" />
-      <workItem from="1583464660473" duration="3484000" />
-      <workItem from="1583491181680" duration="1995000" />
-      <workItem from="1583592572473" duration="5991000" />
-      <workItem from="1583685002854" duration="740000" />
-      <workItem from="1583765532781" duration="3026000" />
-      <workItem from="1583855442975" duration="1928000" />
-      <workItem from="1583933578025" duration="211000" />
-      <workItem from="1584025333021" duration="8090000" />
-      <workItem from="1584105722507" duration="2288000" />
-      <workItem from="1584187747273" duration="4281000" />
-      <workItem from="1584270602933" duration="4887000" />
-      <workItem from="1584335500705" duration="523000" />
-      <workItem from="1584455328503" duration="1624000" />
-      <workItem from="1584541760129" duration="204000" />
-      <workItem from="1584585431114" duration="5085000" />
-      <workItem from="1584616136302" duration="2627000" />
-      <workItem from="1584624862518" duration="272000" />
-      <workItem from="1584711622439" duration="7317000" />
-      <workItem from="1584805217272" duration="94000" />
-      <workItem from="1584890309828" duration="285000" />
-      <workItem from="1584959720362" duration="284000" />
-      <workItem from="1585059331113" duration="201000" />
-      <workItem from="1585151825679" duration="699000" />
-      <workItem from="1585235760095" duration="335000" />
-      <workItem from="1585318576412" duration="4730000" />
+      <updated>1585570285278</updated>
+      <workItem from="1585570286691" duration="2898000" />
     </task>
-    <task id="LOCAL-00001" summary="push">
-      <created>1554566430124</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1554566430124</updated>
-    </task>
-    <task id="LOCAL-00002" summary="sum problem solution -&gt; double pointer">
-      <created>1582856587380</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1582856587380</updated>
-    </task>
-    <task id="LOCAL-00003" summary="1&gt;swap nodes in pairs&#10;&#10;2&gt;sequence sum 2 target&#10;&#10;3&gt;merge a short sorted array to a long sortedarray">
-      <created>1583493103532</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1583493103533</updated>
-    </task>
-    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="2898000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" />
+      <window_info id="Image Layers" />
+      <window_info id="UI Designer" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Capture Tool" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24151857" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
+      <window_info anchor="bottom" id="Run with VisualVM" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Debug with VisualVM" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32956153" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39886847" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="PlantUML" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="push" />
-    <MESSAGE value="sum problem solution -&gt; double pointer" />
-    <MESSAGE value="1&gt;swap nodes in pairs&#10;&#10;2&gt;sequence sum 2 target&#10;&#10;3&gt;merge a short sorted array to a long sortedarray" />
-    <option name="LAST_COMMIT_MESSAGE" value="1&gt;swap nodes in pairs&#10;&#10;2&gt;sequence sum 2 target&#10;&#10;3&gt;merge a short sorted array to a long sortedarray" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="457" y="88" key="#com.intellij.ide.util.MemberChooser" timestamp="1584622230750">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="457" y="88" key="#com.intellij.ide.util.MemberChooser/0.0.1440.900@0.0.1440.900" timestamp="1584622230750" />
-    <state x="590" y="193" key="#xdebugger.evaluate" timestamp="1585489954775">
-      <screen x="39" y="23" width="1401" height="877" />
-    </state>
-    <state x="616" y="138" key="#xdebugger.evaluate/0.0.1440.900@0.0.1440.900" timestamp="1582549976844" />
-    <state x="590" y="193" key="#xdebugger.evaluate/39.23.1401.877@39.23.1401.877" timestamp="1585489954775" />
-    <state x="283" y="23" width="873" height="877" key="CommitChangelistDialog2" timestamp="1583493103315">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="283" y="23" width="873" height="877" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1583493103315" />
-    <state width="545" height="533" key="DebuggerActiveHint" timestamp="1585489506186">
-      <screen x="39" y="23" width="1401" height="877" />
-    </state>
-    <state width="560" height="546" key="DebuggerActiveHint/0.0.1440.900@0.0.1440.900" timestamp="1585319451295" />
-    <state width="545" height="533" key="DebuggerActiveHint/39.23.1401.877@39.23.1401.877" timestamp="1585489506186" />
-    <state width="419" height="546" key="DebuggerActiveHint/40.23.1400.877@40.23.1400.877" timestamp="1583133353304" />
-    <state width="586" height="642" key="DebuggerActiveHint/41.23.1879.1057@41.23.1879.1057" timestamp="1584106599243" />
-    <state x="144" y="90" key="DiffContextDialog" timestamp="1583493048897">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="144" y="90" key="DiffContextDialog/0.0.1440.900@0.0.1440.900" timestamp="1583493048897" />
-    <state width="1385" height="130" key="GridCell.Tab.0.bottom" timestamp="1585490077233">
-      <screen x="39" y="23" width="1401" height="877" />
-    </state>
-    <state width="1388" height="199" key="GridCell.Tab.0.bottom/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1583769398641" />
-    <state width="1385" height="183" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585320323639" />
-    <state width="1388" height="226" key="GridCell.Tab.0.bottom/36.23.1404.877@36.23.1404.877" timestamp="1582551601145" />
-    <state width="1385" height="181" key="GridCell.Tab.0.bottom/38.23.1402.877@38.23.1402.877" timestamp="1585152543979" />
-    <state width="1349" height="185" key="GridCell.Tab.0.bottom/39.23.1401.877/-227.-1057.1920.1057@39.23.1401.877" timestamp="1583933789088" />
-    <state width="1385" height="130" key="GridCell.Tab.0.bottom/39.23.1401.877@39.23.1401.877" timestamp="1585490077233" />
-    <state width="1385" height="174" key="GridCell.Tab.0.bottom/39.23.1881.1057@39.23.1881.1057" timestamp="1585409957697" />
-    <state width="1388" height="245" key="GridCell.Tab.0.bottom/40.23.1400.877/-227.-1057.1920.1057@40.23.1400.877" timestamp="1583769440357" />
-    <state width="1388" height="197" key="GridCell.Tab.0.bottom/40.23.1400.877@40.23.1400.877" timestamp="1584498765872" />
-    <state width="1388" height="197" key="GridCell.Tab.0.bottom/41.23.1399.877@41.23.1399.877" timestamp="1584240120351" />
-    <state width="941" height="229" key="GridCell.Tab.0.bottom/41.23.1879.1057@41.23.1879.1057" timestamp="1584107541857" />
-    <state width="1385" height="130" key="GridCell.Tab.0.center" timestamp="1585490077232">
-      <screen x="39" y="23" width="1401" height="877" />
-    </state>
-    <state width="1388" height="199" key="GridCell.Tab.0.center/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1583769398640" />
-    <state width="1385" height="183" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1585320323637" />
-    <state width="1388" height="226" key="GridCell.Tab.0.center/36.23.1404.877@36.23.1404.877" timestamp="1582551601144" />
-    <state width="1385" height="181" key="GridCell.Tab.0.center/38.23.1402.877@38.23.1402.877" timestamp="1585152543978" />
-    <state width="1349" height="185" key="GridCell.Tab.0.center/39.23.1401.877/-227.-1057.1920.1057@39.23.1401.877" timestamp="1583933789087" />
-    <state width="1385" height="130" key="GridCell.Tab.0.center/39.23.1401.877@39.23.1401.877" timestamp="1585490077232" />
-    <state width="1385" height="174" key="GridCell.Tab.0.center/39.23.1881.1057@39.23.1881.1057" timestamp="1585409957696" />
-    <state width="1388" height="245" key="GridCell.Tab.0.center/40.23.1400.877/-227.-1057.1920.1057@40.23.1400.877" timestamp="1583769440356" />
-    <state width="1388" height="197" key="GridCell.Tab.0.center/40.23.1400.877@40.23.1400.877" timestamp="1584498765871" />
-    <state width="1388" height="197" key="GridCell.Tab.0.center/41.23.1399.877@41.23.1399.877" timestamp="1584240120350" />
-    <state width="941" height="229" key="GridCell.Tab.0.center/41.23.1879.1057@41.23.1879.1057" timestamp="1584107541856" />
-    <state width="1385" height="130" key="GridCell.Tab.0.left" timestamp="1585490077231">
-      <screen x="39" y="23" width="1401" height="877" />
-    </state>
-    <state width="1388" height="199" key="GridCell.Tab.0.left/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1583769398639" />
-    <state width="1385" height="183" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1585320323636" />
-    <state width="1388" height="226" key="GridCell.Tab.0.left/36.23.1404.877@36.23.1404.877" timestamp="1582551601144" />
-    <state width="1385" height="181" key="GridCell.Tab.0.left/38.23.1402.877@38.23.1402.877" timestamp="1585152543977" />
-    <state width="1349" height="185" key="GridCell.Tab.0.left/39.23.1401.877/-227.-1057.1920.1057@39.23.1401.877" timestamp="1583933789086" />
-    <state width="1385" height="130" key="GridCell.Tab.0.left/39.23.1401.877@39.23.1401.877" timestamp="1585490077231" />
-    <state width="1385" height="174" key="GridCell.Tab.0.left/39.23.1881.1057@39.23.1881.1057" timestamp="1585409957695" />
-    <state width="1388" height="245" key="GridCell.Tab.0.left/40.23.1400.877/-227.-1057.1920.1057@40.23.1400.877" timestamp="1583769440356" />
-    <state width="1388" height="197" key="GridCell.Tab.0.left/40.23.1400.877@40.23.1400.877" timestamp="1584498765870" />
-    <state width="1388" height="197" key="GridCell.Tab.0.left/41.23.1399.877@41.23.1399.877" timestamp="1584240120350" />
-    <state width="941" height="229" key="GridCell.Tab.0.left/41.23.1879.1057@41.23.1879.1057" timestamp="1584107541855" />
-    <state width="1385" height="130" key="GridCell.Tab.0.right" timestamp="1585490077232">
-      <screen x="39" y="23" width="1401" height="877" />
-    </state>
-    <state width="1388" height="199" key="GridCell.Tab.0.right/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1583769398641" />
-    <state width="1385" height="183" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1585320323638" />
-    <state width="1388" height="226" key="GridCell.Tab.0.right/36.23.1404.877@36.23.1404.877" timestamp="1582551601145" />
-    <state width="1385" height="181" key="GridCell.Tab.0.right/38.23.1402.877@38.23.1402.877" timestamp="1585152543979" />
-    <state width="1349" height="185" key="GridCell.Tab.0.right/39.23.1401.877/-227.-1057.1920.1057@39.23.1401.877" timestamp="1583933789087" />
-    <state width="1385" height="130" key="GridCell.Tab.0.right/39.23.1401.877@39.23.1401.877" timestamp="1585490077232" />
-    <state width="1385" height="174" key="GridCell.Tab.0.right/39.23.1881.1057@39.23.1881.1057" timestamp="1585409957696" />
-    <state width="1388" height="245" key="GridCell.Tab.0.right/40.23.1400.877/-227.-1057.1920.1057@40.23.1400.877" timestamp="1583769440357" />
-    <state width="1388" height="197" key="GridCell.Tab.0.right/40.23.1400.877@40.23.1400.877" timestamp="1584498765872" />
-    <state width="1388" height="197" key="GridCell.Tab.0.right/41.23.1399.877@41.23.1399.877" timestamp="1584240120351" />
-    <state width="941" height="229" key="GridCell.Tab.0.right/41.23.1879.1057@41.23.1879.1057" timestamp="1584107541857" />
-    <state width="1385" height="169" key="GridCell.Tab.1.bottom" timestamp="1585490040541">
-      <screen x="39" y="23" width="1401" height="877" />
-    </state>
-    <state width="1388" height="245" key="GridCell.Tab.1.bottom/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1583767815843" />
-    <state width="1385" height="183" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1585320323641" />
-    <state width="1388" height="226" key="GridCell.Tab.1.bottom/36.23.1404.877@36.23.1404.877" timestamp="1582551601147" />
-    <state width="1385" height="134" key="GridCell.Tab.1.bottom/38.23.1402.877@38.23.1402.877" timestamp="1585152543971" />
-    <state width="1385" height="169" key="GridCell.Tab.1.bottom/39.23.1401.877@39.23.1401.877" timestamp="1585490040541" />
-    <state width="1388" height="245" key="GridCell.Tab.1.bottom/40.23.1400.877/-227.-1057.1920.1057@40.23.1400.877" timestamp="1583769440358" />
-    <state width="1388" height="355" key="GridCell.Tab.1.bottom/40.23.1400.877@40.23.1400.877" timestamp="1584327850508" />
-    <state width="1388" height="355" key="GridCell.Tab.1.bottom/41.23.1399.877@41.23.1399.877" timestamp="1584240120348" />
-    <state width="941" height="408" key="GridCell.Tab.1.bottom/41.23.1879.1057@41.23.1879.1057" timestamp="1584106689108" />
-    <state width="1385" height="169" key="GridCell.Tab.1.center" timestamp="1585490040540">
-      <screen x="39" y="23" width="1401" height="877" />
-    </state>
-    <state width="1388" height="245" key="GridCell.Tab.1.center/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1583767815842" />
-    <state width="1385" height="183" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1585320323640" />
-    <state width="1388" height="226" key="GridCell.Tab.1.center/36.23.1404.877@36.23.1404.877" timestamp="1582551601146" />
-    <state width="1385" height="134" key="GridCell.Tab.1.center/38.23.1402.877@38.23.1402.877" timestamp="1585152543968" />
-    <state width="1385" height="169" key="GridCell.Tab.1.center/39.23.1401.877@39.23.1401.877" timestamp="1585490040540" />
-    <state width="1388" height="245" key="GridCell.Tab.1.center/40.23.1400.877/-227.-1057.1920.1057@40.23.1400.877" timestamp="1583769440358" />
-    <state width="1388" height="355" key="GridCell.Tab.1.center/40.23.1400.877@40.23.1400.877" timestamp="1584327850507" />
-    <state width="1388" height="355" key="GridCell.Tab.1.center/41.23.1399.877@41.23.1399.877" timestamp="1584240120347" />
-    <state width="941" height="408" key="GridCell.Tab.1.center/41.23.1879.1057@41.23.1879.1057" timestamp="1584106689108" />
-    <state width="1385" height="169" key="GridCell.Tab.1.left" timestamp="1585490040540">
-      <screen x="39" y="23" width="1401" height="877" />
-    </state>
-    <state width="1388" height="245" key="GridCell.Tab.1.left/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1583767815841" />
-    <state width="1385" height="183" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1585320323639" />
-    <state width="1388" height="226" key="GridCell.Tab.1.left/36.23.1404.877@36.23.1404.877" timestamp="1582551601146" />
-    <state width="1385" height="134" key="GridCell.Tab.1.left/38.23.1402.877@38.23.1402.877" timestamp="1585152543968" />
-    <state width="1385" height="169" key="GridCell.Tab.1.left/39.23.1401.877@39.23.1401.877" timestamp="1585490040540" />
-    <state width="1388" height="245" key="GridCell.Tab.1.left/40.23.1400.877/-227.-1057.1920.1057@40.23.1400.877" timestamp="1583769440357" />
-    <state width="1388" height="355" key="GridCell.Tab.1.left/40.23.1400.877@40.23.1400.877" timestamp="1584327850507" />
-    <state width="1388" height="355" key="GridCell.Tab.1.left/41.23.1399.877@41.23.1399.877" timestamp="1584240120346" />
-    <state width="941" height="408" key="GridCell.Tab.1.left/41.23.1879.1057@41.23.1879.1057" timestamp="1584106689107" />
-    <state width="1385" height="169" key="GridCell.Tab.1.right" timestamp="1585490040540">
-      <screen x="39" y="23" width="1401" height="877" />
-    </state>
-    <state width="1388" height="245" key="GridCell.Tab.1.right/0.0.1440.900/-227.-1080.1920.1080@0.0.1440.900" timestamp="1583767815842" />
-    <state width="1385" height="183" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1585320323641" />
-    <state width="1388" height="226" key="GridCell.Tab.1.right/36.23.1404.877@36.23.1404.877" timestamp="1582551601147" />
-    <state width="1385" height="134" key="GridCell.Tab.1.right/38.23.1402.877@38.23.1402.877" timestamp="1585152543969" />
-    <state width="1385" height="169" key="GridCell.Tab.1.right/39.23.1401.877@39.23.1401.877" timestamp="1585490040540" />
-    <state width="1388" height="245" key="GridCell.Tab.1.right/40.23.1400.877/-227.-1057.1920.1057@40.23.1400.877" timestamp="1583769440358" />
-    <state width="1388" height="355" key="GridCell.Tab.1.right/40.23.1400.877@40.23.1400.877" timestamp="1584327850508" />
-    <state width="1388" height="355" key="GridCell.Tab.1.right/41.23.1399.877@41.23.1399.877" timestamp="1584240120347" />
-    <state width="941" height="408" key="GridCell.Tab.1.right/41.23.1879.1057@41.23.1879.1057" timestamp="1584106689108" />
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2" timestamp="1583493105763">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="220" y="127" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1583493105763" />
-    <state x="386" y="255" key="com.intellij.ide.util.TipDialog" timestamp="1585235763273">
-      <screen x="37" y="23" width="1403" height="877" />
-    </state>
-    <state x="359" y="238" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1583422697391" />
-    <state x="386" y="255" key="com.intellij.ide.util.TipDialog/37.23.1403.877@37.23.1403.877" timestamp="1585235763273" />
-    <state x="388" y="255" key="com.intellij.ide.util.TipDialog/39.23.1401.877@39.23.1401.877" timestamp="1584959720676" />
-    <state x="389" y="255" key="com.intellij.ide.util.TipDialog/40.23.1400.877@40.23.1400.877" timestamp="1582816026295" />
-    <state x="511" y="356" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1583137317606">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="511" y="356" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1583137317606" />
-    <state x="100" y="100" width="1240" height="700" key="dock-window-1" timestamp="1583115449091">
-      <screen x="40" y="23" width="1400" height="877" />
-    </state>
-    <state x="100" y="100" width="1240" height="700" key="dock-window-1/40.23.1400.877@40.23.1400.877" timestamp="1583115449091" />
-    <state x="352" y="163" width="736" height="574" key="find.popup" timestamp="1583466754394">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="352" y="163" width="736" height="574" key="find.popup/0.0.1440.900@0.0.1440.900" timestamp="1583466754394" />
-    <state x="63" y="23" key="new project wizard" timestamp="1580920176029">
-      <screen x="39" y="23" width="1401" height="877" />
-    </state>
-    <state x="63" y="23" key="new project wizard/39.23.1401.877@39.23.1401.877" timestamp="1580920176029" />
-    <state x="429" y="23" width="1130" height="1055" key="search.everywhere.popup" timestamp="1585408486620">
-      <screen x="39" y="23" width="1881" height="1057" />
-    </state>
-    <state x="299" y="-1" width="840" height="1034" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1584064398216" />
-    <state x="429" y="23" width="1130" height="1055" key="search.everywhere.popup/39.23.1881.1057@39.23.1881.1057" timestamp="1585408486620" />
-    <state x="331" y="23" width="840" height="875" key="search.everywhere.popup/41.23.1399.877@41.23.1399.877" timestamp="1584109401588" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q3_LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>69</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/src/Q_LastNumInACircle.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q3_LongestSubstringWithoutRepeatingCharacters.java</url>
-          <line>49</line>
-          <option name="timeStamp" value="9" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q4_MedianOfTwoSortedArrays.java</url>
-          <line>157</line>
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q7_ReverseInteger.java</url>
-          <line>54</line>
-          <option name="timeStamp" value="11" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q7_ReverseInteger.java</url>
-          <line>44</line>
-          <option name="timeStamp" value="12" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q7_ReverseInteger.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="13" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q6_ZigZagConversion.java</url>
-          <line>76</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q6_ZigZagConversion.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q6_ZigZagConversion.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q8_String2Integer.java</url>
-          <line>112</line>
-          <option name="timeStamp" value="33" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q8_String2Integer.java</url>
-          <line>35</line>
-          <option name="timeStamp" value="34" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q8_String2Integer.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="35" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q9_PalindromeNumber.java</url>
-          <line>45</line>
-          <option name="timeStamp" value="36" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q9_PalindromeNumber.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q9_PalindromeNumber.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q12_Integer2Roman.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="41" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q12_Integer2Roman.java</url>
-          <line>152</line>
-          <option name="timeStamp" value="42" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q12_Integer2Roman.java</url>
-          <line>73</line>
-          <option name="timeStamp" value="43" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q13_Roman2Integer.java</url>
-          <line>114</line>
-          <option name="timeStamp" value="44" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q13_Roman2Integer.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q14_LongestCommonPrefix.java</url>
-          <line>57</line>
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q16_3SumClosest.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="52" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q16_3SumClosest.java</url>
-          <line>42</line>
-          <option name="timeStamp" value="53" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q21_MergeTwoSortedLists.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q155_MinStack.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="57" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q155_MinStack_V2.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q224_BasicCalculator.java</url>
-          <line>101</line>
-          <option name="timeStamp" value="80" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q844_BackspaceStringCompare.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="87" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q844_BackspaceStringCompare.java</url>
+          <url>file://$PROJECT_DIR$/src/Q_LastNumInACircle.java</url>
           <line>19</line>
-          <option name="timeStamp" value="88" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q215_KthLargestElementInAnArray.java</url>
-          <line>55</line>
-          <option name="timeStamp" value="89" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q215_KthLargestElementInAnArray.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q15_3Sum.java</url>
-          <line>117</line>
-          <option name="timeStamp" value="94" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q15_3Sum.java</url>
-          <line>71</line>
-          <option name="timeStamp" value="95" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q653_TwoSumIV_Input_Is_A_BST.java</url>
-          <line>41</line>
-          <option name="timeStamp" value="96" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q167_TwoSumII_InputArraySorted.java</url>
-          <line>50</line>
-          <option name="timeStamp" value="97" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q18_4Sum.java</url>
-          <line>86</line>
-          <option name="timeStamp" value="98" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q18_4Sum.java</url>
-          <line>33</line>
-          <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q17_LetterCombinationsOfAPhoneNumber.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="105" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q17_LetterCombinationsOfAPhoneNumber.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="106" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q39_CombinationSum.java</url>
-          <line>47</line>
-          <option name="timeStamp" value="118" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q40_CombinationSumII.java</url>
-          <line>80</line>
-          <option name="timeStamp" value="119" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q40_CombinationSumII.java</url>
-          <line>61</line>
-          <option name="timeStamp" value="122" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q217_CombinationSumIII.java</url>
-          <line>38</line>
-          <option name="timeStamp" value="123" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q24_SwapNodesInPairs.java</url>
-          <line>62</line>
-          <option name="timeStamp" value="129" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q24_SwapNodesInPairs.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="130" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q26_RemoveDuplicatesFromSortedArray.java</url>
-          <line>10</line>
-          <option name="timeStamp" value="131" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q26_RemoveDuplicatesFromSortedArray.java</url>
-          <line>24</line>
-          <option name="timeStamp" value="132" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q26_RemoveDuplicatesFromSortedArray.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="133" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q22_GenerateParentheses_1.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q27_RemoveElement.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="137" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q27_RemoveElement.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="138" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q121_BestTimeToBuyAndSellStock.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q543_DiameterOfBinaryTree.java</url>
-          <line>63</line>
-          <option name="timeStamp" value="141" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q543_DiameterOfBinaryTree.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="142" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q1071_GreatestCommonDivisorOfStrings.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="143" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q1071_GreatestCommonDivisorOfStrings.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="144" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q169_MajorityElement.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="149" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q25_ReverseNodesInKGroup.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="153" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q25_ReverseNodesInKGroup.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="155" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q25_ReverseNodesInKGroup.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="156" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q_MaxNoDuplicateSubString.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="166" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q_MaxNoDuplicateSubString.java</url>
-          <line>14</line>
-          <option name="timeStamp" value="167" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q300_LongestIncreasingSubsequence.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="168" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q300_LongestIncreasingSubsequence.java</url>
-          <line>64</line>
-          <option name="timeStamp" value="170" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q300_LongestIncreasingSubsequence.java</url>
-          <line>85</line>
-          <option name="timeStamp" value="173" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q28_ImplementStrStr.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="175" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q_LongestCommonPrefix.java</url>
-          <line>12</line>
-          <option name="timeStamp" value="178" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q146_LRUCache.java</url>
-          <line>105</line>
-          <option name="timeStamp" value="191" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q146_LRUCache.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="192" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q_MinKNums.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="198" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q_StringContains.java</url>
-          <line>56</line>
-          <option name="timeStamp" value="200" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q_StringContains.java</url>
-          <line>28</line>
-          <option name="timeStamp" value="202" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q_StringContains.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="203" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Q_ReverseWordInString.java</url>
-          <line>48</line>
-          <option name="timeStamp" value="214" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/LinkedList.java</url>
-          <line>744</line>
-          <properties class="java.util.LinkedList" method="peekLast">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="128" />
+          <properties />
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
-  <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/leetcode$Q33_SearchInRotatedSortedArray.ic" NAME="Q33_SearchInRotatedSortedArray Coverage Results" MODIFIED="1582550021086" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
-    <SUITE FILE_PATH="coverage/leetcode$Q217_CombinationSumIII.ic" NAME="Q217_CombinationSumIII Coverage Results" MODIFIED="1583144382827" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Q7_ReverseInteger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="54" column="23" lean-forward="true" selection-start-line="54" selection-start-column="23" selection-end-line="54" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Q9_PalindromeNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="36" column="18" lean-forward="true" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Q8_String2Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="109" column="39" selection-start-line="109" selection-start-column="39" selection-end-line="109" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Q6_ZigZagConversion.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="505">
+          <caret line="59" column="32" lean-forward="true" selection-start-line="59" selection-start-column="32" selection-end-line="59" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Q_LastNumInACircle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19832985" />
               </list>
             </option>
           </splitter-proportions>
@@ -848,20 +347,19 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19832985" />
               </list>
             </option>
           </splitter-proportions>
         </settings>
       </state>
-      <state key="ModuleStructureConfigurable.UI">
+      <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>leetcode</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
@@ -872,7 +370,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.19832985" />
               </list>
             </option>
           </splitter-proportions>
