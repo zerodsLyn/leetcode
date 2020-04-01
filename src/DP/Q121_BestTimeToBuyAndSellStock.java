@@ -1,25 +1,25 @@
+package DP;
+
 /**
  * https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock/
  * @author gengchao05 create on 2020/03/09
  */
 public class Q121_BestTimeToBuyAndSellStock {
     public int maxProfit(int[] prices) {
-        int length;
-        if (prices == null || (length = prices.length) <= 1) {
+        int length = prices.length;
+        if (length < 2) {
             return 0;
         }
 
-        int max = 0;
+        // 这里动态规划的公式为f(n) = max{f(n-1), a[n] - min{a[0], a[1], ... , a[n-1]}}
         int min = prices[0];
-        for (int j = 1; j < length; j++) {
-            max = Math.max(max, prices[j] - min);
-            if (prices[j] < min) {
-                min = prices[j];
-            }
-
+        int[] dp = new int[length];
+        for (int i = 1; i < length; i++) {
+            dp[i] = Math.max(dp[i - 1], prices[i] - min);
+            min = Math.min(prices[i], min);
         }
 
-        return max;
+        return dp[length - 1];
     }
 
     public static void main(String[] args) {
