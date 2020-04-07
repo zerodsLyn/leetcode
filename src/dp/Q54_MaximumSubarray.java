@@ -1,4 +1,4 @@
-package DP;
+package dp;
 
 /**
  * https://leetcode-cn.com/problems/maximum-subarray/
