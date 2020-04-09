@@ -19,15 +19,25 @@ public class Q_SimplifyPath {
                         result.deleteCharAt(j);
                     }
                 } else if (cur.equals(".")) {
-                    continue;
                 } else {
                     result.append('/');
                     result.append(cur);
                 }
-
             }
+        }
+        if (result.length() == 0) {
+            return "/";
         }
 
         return result.toString();
+    }
+
+    public static void main(String[] args) {
+        System.out.println(new Q_SimplifyPath().simplifyPath("/home/"));
+        System.out.println(new Q_SimplifyPath().simplifyPath("/../"));
+        System.out.println(new Q_SimplifyPath().simplifyPath("/home//foo/"));
+        System.out.println(new Q_SimplifyPath().simplifyPath("/a/./b/../../c/"));
+        System.out.println(new Q_SimplifyPath().simplifyPath("/a/../../b/../c//.//"));
+        System.out.println(new Q_SimplifyPath().simplifyPath("/a//b////c/d//././/.."));
     }
 }
