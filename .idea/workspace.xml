@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a1d117a-f655-4ced-8493-cd2f1d1800d2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Q445_TwoNumsAdd.java" afterDir="false" />
-    </list>
+    <list default="true" id="7a1d117a-f655-4ced-8493-cd2f1d1800d2" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -47,7 +45,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1586872750849</updated>
-      <workItem from="1586872752245" duration="1962000" />
+      <workItem from="1586872752245" duration="2147000" />
     </task>
     <servers />
   </component>
@@ -63,38 +61,46 @@
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="100" y="100" width="1080" height="600" key="DiffContextDialog/0.0.1280.800@0.0.1280.800" timestamp="1586873038464" />
-    <state width="1238" height="254" key="GridCell.Tab.0.bottom" timestamp="1586874757247">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="204" key="GridCell.Tab.0.bottom" timestamp="1586874919732">
+      <screen x="0" y="23" width="1280" height="738" />
     </state>
-    <state width="1238" height="254" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586874757247" />
-    <state width="1238" height="254" key="GridCell.Tab.0.center" timestamp="1586874757245">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="204" key="GridCell.Tab.0.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586874857168" />
+    <state width="1238" height="204" key="GridCell.Tab.0.bottom/0.23.1280.738@0.23.1280.738" timestamp="1586874919732" />
+    <state width="1238" height="204" key="GridCell.Tab.0.center" timestamp="1586874919731">
+      <screen x="0" y="23" width="1280" height="738" />
     </state>
-    <state width="1238" height="254" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586874757245" />
-    <state width="1238" height="254" key="GridCell.Tab.0.left" timestamp="1586874757244">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="204" key="GridCell.Tab.0.center/0.0.1280.800@0.0.1280.800" timestamp="1586874857167" />
+    <state width="1238" height="204" key="GridCell.Tab.0.center/0.23.1280.738@0.23.1280.738" timestamp="1586874919731" />
+    <state width="1238" height="204" key="GridCell.Tab.0.left" timestamp="1586874919731">
+      <screen x="0" y="23" width="1280" height="738" />
     </state>
-    <state width="1238" height="254" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586874757244" />
-    <state width="1238" height="254" key="GridCell.Tab.0.right" timestamp="1586874757246">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="204" key="GridCell.Tab.0.left/0.0.1280.800@0.0.1280.800" timestamp="1586874857167" />
+    <state width="1238" height="204" key="GridCell.Tab.0.left/0.23.1280.738@0.23.1280.738" timestamp="1586874919731" />
+    <state width="1238" height="204" key="GridCell.Tab.0.right" timestamp="1586874919732">
+      <screen x="0" y="23" width="1280" height="738" />
     </state>
-    <state width="1238" height="254" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586874757246" />
-    <state width="1238" height="254" key="GridCell.Tab.1.bottom" timestamp="1586874757253">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="204" key="GridCell.Tab.0.right/0.0.1280.800@0.0.1280.800" timestamp="1586874857168" />
+    <state width="1238" height="204" key="GridCell.Tab.0.right/0.23.1280.738@0.23.1280.738" timestamp="1586874919732" />
+    <state width="1238" height="254" key="GridCell.Tab.1.bottom" timestamp="1586874919726">
+      <screen x="0" y="23" width="1280" height="738" />
     </state>
     <state width="1238" height="254" key="GridCell.Tab.1.bottom/0.0.1280.800@0.0.1280.800" timestamp="1586874757253" />
-    <state width="1238" height="254" key="GridCell.Tab.1.center" timestamp="1586874757252">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="254" key="GridCell.Tab.1.bottom/0.23.1280.738@0.23.1280.738" timestamp="1586874919726" />
+    <state width="1238" height="254" key="GridCell.Tab.1.center" timestamp="1586874919726">
+      <screen x="0" y="23" width="1280" height="738" />
     </state>
     <state width="1238" height="254" key="GridCell.Tab.1.center/0.0.1280.800@0.0.1280.800" timestamp="1586874757252" />
-    <state width="1238" height="254" key="GridCell.Tab.1.left" timestamp="1586874757250">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="254" key="GridCell.Tab.1.center/0.23.1280.738@0.23.1280.738" timestamp="1586874919726" />
+    <state width="1238" height="254" key="GridCell.Tab.1.left" timestamp="1586874919725">
+      <screen x="0" y="23" width="1280" height="738" />
     </state>
     <state width="1238" height="254" key="GridCell.Tab.1.left/0.0.1280.800@0.0.1280.800" timestamp="1586874757250" />
-    <state width="1238" height="254" key="GridCell.Tab.1.right" timestamp="1586874757252">
-      <screen x="0" y="0" width="1280" height="800" />
+    <state width="1238" height="254" key="GridCell.Tab.1.left/0.23.1280.738@0.23.1280.738" timestamp="1586874919725" />
+    <state width="1238" height="254" key="GridCell.Tab.1.right" timestamp="1586874919726">
+      <screen x="0" y="23" width="1280" height="738" />
     </state>
     <state width="1238" height="254" key="GridCell.Tab.1.right/0.0.1280.800@0.0.1280.800" timestamp="1586874757252" />
+    <state width="1238" height="254" key="GridCell.Tab.1.right/0.23.1280.738@0.23.1280.738" timestamp="1586874919726" />
     <state x="444" y="141" key="VcsDiffUtil.ChangesDialog" timestamp="1586872969231">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
@@ -105,7 +111,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Q445_TwoNumsAdd.java</url>
-          <line>67</line>
+          <line>66</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
