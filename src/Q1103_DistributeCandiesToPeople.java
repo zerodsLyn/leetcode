@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * @author gengchao05 create on 2020/03/05
+ * @author zerodsLyn create on 2020/03/05
  */
 public class Q1103_DistributeCandiesToPeople {
     public int[] distributeCandies(int candies, int num_people) {

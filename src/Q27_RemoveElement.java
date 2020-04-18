@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 /**
  * https://leetcode-cn.com/problems/remove-element/
- * @author gengchao05 create on 2020/03/09
+ * @author zerodsLyn create on 2020/03/09
  */
 public class Q27_RemoveElement {
     public int removeElement(int[] nums, int val) {

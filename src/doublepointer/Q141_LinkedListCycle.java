@@ -1,5 +1,5 @@
 package doublepointer; /**
- * @author gengchao05 create on 2019/06/13
+ * @author zerodsLyn create on 2019/06/13
  */
 
 /**

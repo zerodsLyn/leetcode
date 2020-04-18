@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author gengchao05 create on 2020/04/16
+ * @author zerodsLyn create on 2020/04/16
  */
 public class Q56_MergeIntervals {
     public int[][] merge(int[][] intervals) {

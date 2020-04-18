@@ -1,7 +1,7 @@
 import java.util.Stack;
 
 /**
- * @author gengchao05 create on 2019/06/2
+ * @author zerodsLyn create on 2019/06/2
  * <p>
  * Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character.
  */

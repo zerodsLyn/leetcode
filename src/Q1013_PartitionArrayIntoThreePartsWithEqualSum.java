@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2020/03/11
+ * @author zerodsLyn create on 2020/03/11
  */
 public class Q1013_PartitionArrayIntoThreePartsWithEqualSum {
     public boolean canThreePartsEqualSum(int[] A) {

@@ -1,6 +1,6 @@
 /**
  * https://leetcode-cn.com/problems/swap-nodes-in-pairs/
- * @author gengchao05 create on 2020/03/06
+ * @author zerodsLyn create on 2020/03/06
  */
 public class Q24_SwapNodesInPairs {
     public ListNode swapPairs(ListNode head) {

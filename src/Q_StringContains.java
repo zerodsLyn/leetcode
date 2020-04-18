@@ -3,7 +3,7 @@ import java.util.Map;
 
 /**
  * https://leetcode-cn.com/explore/interview/card/bytedance/242/string/1016/
- * @author gengchao05 create on 2020/03/25
+ * @author zerodsLyn create on 2020/03/25
  */
 public class Q_StringContains {
     public boolean checkInclusion(String s1, String s2) {

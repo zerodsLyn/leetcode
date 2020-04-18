@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2020/03/22
+ * @author zerodsLyn create on 2020/03/22
  */
 public class Q945_Minimum_IncrementToMakeArrayUnique {
     public int minIncrementForUnique(int[] A) {

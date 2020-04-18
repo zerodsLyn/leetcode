@@ -2,7 +2,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author gengchao05 create on 2020/03/29
+ * @author zerodsLyn create on 2020/03/29
  */
 public class Q_ReverseWordInString {
     public String reverseWords(String origin) {

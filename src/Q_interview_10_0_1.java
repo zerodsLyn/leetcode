@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2020/03/06
+ * @author zerodsLyn create on 2020/03/06
  */
 public class Q_interview_10_0_1 {
     public void merge(int[] A, int m, int[] B, int n) {

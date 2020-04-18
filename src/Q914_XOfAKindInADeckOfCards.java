@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author gengchao05 create on 2020/03/27
+ * @author zerodsLyn create on 2020/03/27
  */
 public class Q914_XOfAKindInADeckOfCards {
     public boolean hasGroupsSizeX(int[] deck) {

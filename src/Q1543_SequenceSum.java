@@ -5,7 +5,7 @@ import java.util.List;
 
 /**
  * https://leetcode-cn.com/problems/he-wei-sde-lian-xu-zheng-shu-xu-lie-lcof/
- * @author gengchao05 create on 2020/03/06
+ * @author zerodsLyn create on 2020/03/06
  */
 public class Q1543_SequenceSum {
     public int[][] findContinuousSequence(int target) {

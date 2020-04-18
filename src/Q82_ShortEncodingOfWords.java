@@ -2,7 +2,7 @@ import java.util.Arrays;
 import java.util.Comparator;
 
 /**
- * @author gengchao05 create on 2020/03/28
+ * @author zerodsLyn create on 2020/03/28
  */
 public class Q82_ShortEncodingOfWords {
     public int minimumLengthEncoding(String[] words) {

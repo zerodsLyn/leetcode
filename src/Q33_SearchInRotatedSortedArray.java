@@ -11,7 +11,7 @@ import com.sun.tools.javadoc.Start;
  * <p>
  * Your algorithm's runtime complexity must be in the order of O(log n).
  *
- * @author gengchao05 create on 2020/02/24
+ * @author zerodsLyn create on 2020/02/24
  */
 public class Q33_SearchInRotatedSortedArray {
     public int search(int[] nums, int target) {

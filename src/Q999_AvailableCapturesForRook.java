@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2020/03/26
+ * @author zerodsLyn create on 2020/03/26
  */
 public class Q999_AvailableCapturesForRook {
     public int numRookCaptures(char[][] board) {

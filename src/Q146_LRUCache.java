@@ -3,7 +3,7 @@ import java.util.LinkedList;
 
 /**
  * https://leetcode-cn.com/problems/lru-cache/
- * @author gengchao05 create on 2020/03/19
+ * @author zerodsLyn create on 2020/03/19
  */
 public class Q146_LRUCache {
 

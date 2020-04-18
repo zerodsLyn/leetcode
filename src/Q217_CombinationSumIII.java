@@ -20,7 +20,7 @@ import java.util.List;
  *
  * https://leetcode-cn.com/problems/combination-sum-iii/
  *
- * @author gengchao05 create on 2020/03/02
+ * @author zerodsLyn create on 2020/03/02
  */
 public class Q217_CombinationSumIII {
 

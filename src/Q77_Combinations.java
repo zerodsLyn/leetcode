@@ -19,7 +19,7 @@ import java.util.List;
  * ]
  *
  *
- * @author gengchao05 create on 2020/03/02
+ * @author zerodsLyn create on 2020/03/02
  */
 public class Q77_Combinations {
     public List<List<Integer>> combine(int n, int k) {

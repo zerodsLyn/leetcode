@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2019/06/13
+ * @author zerodsLyn create on 2019/06/13
  */
 public class Q206_ReverseLinkedList {
     public ListNode reverseList(ListNode head) {

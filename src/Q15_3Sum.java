@@ -1,7 +1,7 @@
 import java.util.*;
 
 /**
- * @author gengchao05 create on 2019/04/24
+ * @author zerodsLyn create on 2019/04/24
  */
 /*
 Given an array nums of n integers, are there elements a, b, c in nums such that a + b + c = 0?

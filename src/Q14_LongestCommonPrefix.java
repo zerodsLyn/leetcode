@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2019/04/23
+ * @author zerodsLyn create on 2019/04/23
  */
 /*
     Write a function to find the longest common prefix string amongst an array of strings.

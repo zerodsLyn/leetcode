@@ -4,7 +4,7 @@ import java.util.Map;
 
 /**
  * https://leetcode-cn.com/problems/majority-element/
- * @author gengchao05 create on 2020/03/13
+ * @author zerodsLyn create on 2020/03/13
  */
 public class Q169_MajorityElement {
     public int majorityElement(int[] nums) {

@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * @author gengchao05 create on 2020/03/20
+ * @author zerodsLyn create on 2020/03/20
  */
 public class Q_MinKNums {
     public int[] getLeastNumbers(int[] arr, int k) {

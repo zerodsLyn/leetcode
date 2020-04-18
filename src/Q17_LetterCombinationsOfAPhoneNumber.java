@@ -9,7 +9,7 @@ import java.util.*;
  *
  * https://leetcode-cn.com/problems/letter-combinations-of-a-phone-number/
  *
- * @author gengchao05 create on 2020/03/02
+ * @author zerodsLyn create on 2020/03/02
  */
 public class Q17_LetterCombinationsOfAPhoneNumber {
     public List<String> letterCombinations(String digits) {

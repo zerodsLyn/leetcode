@@ -3,7 +3,7 @@ import java.util.LinkedList;
 
 /**
  * https://leetcode-cn.com/problems/dui-lie-de-zui-da-zhi-lcof/
- * @author gengchao05 create on 2020/03/07
+ * @author zerodsLyn create on 2020/03/07
  */
 public class Q1548_MaxQueue {
 

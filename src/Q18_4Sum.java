@@ -16,7 +16,7 @@ import java.util.List;
  * <p>
  * A solution set is: [ [-1,  0, 0, 1], [-2, -1, 1, 2], [-2,  0, 0, 2] ]
  *
- * @author gengchao05 create on 2020/02/28
+ * @author zerodsLyn create on 2020/02/28
  */
 public class Q18_4Sum {
     public List<List<Integer>> fourSum(int[] nums, int target) {
