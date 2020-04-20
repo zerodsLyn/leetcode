@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 /**
- * @author gengchao05 create on 2020/03/13
+ * @author zerodsLyn create on 2020/03/13
  */
 public class Q_MaxNoDuplicateSubString {
     public int lengthOfLongestSubstring(String s) {

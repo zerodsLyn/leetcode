@@ -18,7 +18,7 @@ import java.util.List;
  * <p>
  * Target = 28
  *
- * @author gengchao05 create on 2020/02/28
+ * @author zerodsLyn create on 2020/02/28
  */
 public class Q653_TwoSumIV_Input_Is_A_BST {
     public boolean findTarget(TreeNode root, int k) {

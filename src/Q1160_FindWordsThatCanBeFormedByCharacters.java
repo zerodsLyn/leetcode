@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author gengchao05 create on 2020/03/17
+ * @author zerodsLyn create on 2020/03/17
  */
 public class Q1160_FindWordsThatCanBeFormedByCharacters {
     public int countCharacters(String[] words, String chars) {

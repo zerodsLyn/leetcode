@@ -1,6 +1,6 @@
 /**
  * https://leetcode-cn.com/problems/implement-strstr/
- * @author gengchao05 create on 2020/03/15
+ * @author zerodsLyn create on 2020/03/15
  */
 public class Q28_ImplementStrStr {
     public int strStr(String haystack, String needle) {

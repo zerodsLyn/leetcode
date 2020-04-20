@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2020/03/21
+ * @author zerodsLyn create on 2020/03/21
  */
 public class Q365_WaterAndJugProblem {
     public boolean canMeasureWater(int x, int y, int z) {

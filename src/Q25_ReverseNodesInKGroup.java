@@ -1,6 +1,6 @@
 /**
  * https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
- * @author gengchao05 create on 2020/03/13
+ * @author zerodsLyn create on 2020/03/13
  */
 public class Q25_ReverseNodesInKGroup {
     public ListNode reverseKGroup(ListNode head, int k) {

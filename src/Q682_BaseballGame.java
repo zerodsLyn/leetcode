@@ -1,7 +1,7 @@
 import java.util.Stack;
 
 /**
- * @author gengchao05 create on 2019/06/27
+ * @author zerodsLyn create on 2019/06/27
  * <p>
  * https://leetcode-cn.com/problems/baseball-game/
  */

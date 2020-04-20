@@ -1,8 +1,11 @@
+package backtrack;
+
 import java.util.ArrayList;
 import java.util.List;
 
 /**
- * @author gengchao05 create on 2019/05/08
+ * https://leetcode-cn.com/problems/generate-parentheses/
+ * @author zerodsLyn create on 2019/05/08
  */
 public class Q22_GenerateParentheses_1 {
     List<String> result = new ArrayList<>();

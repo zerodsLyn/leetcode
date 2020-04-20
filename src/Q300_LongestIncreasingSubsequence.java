@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2020/03/14
+ * @author zerodsLyn create on 2020/03/14
  */
 public class Q300_LongestIncreasingSubsequence {
     public int lengthOfLIS(int[] nums) {

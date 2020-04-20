@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2020/03/12
+ * @author zerodsLyn create on 2020/03/12
  */
 public class Q1071_GreatestCommonDivisorOfStrings {
     public String gcdOfStrings(String str1, String str2) {

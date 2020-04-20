@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 /**
  * https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
- * @author gengchao05 create on 2020/03/07
+ * @author zerodsLyn create on 2020/03/07
  */
 public class Q26_RemoveDuplicatesFromSortedArray {
 

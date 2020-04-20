@@ -1,7 +1,7 @@
 package tree;
 
 /**
- * @author gengchao05 create on 2020/02/28
+ * @author zerodsLyn create on 2020/02/28
  */
 public class TreeNode {
     int val;

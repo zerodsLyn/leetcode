@@ -2,7 +2,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @author gengchao05 create on 2020/03/19
+ * @author zerodsLyn create on 2020/03/19
  */
 public class Q409_LongestPalindrome {
     public int longestPalindrome(String s) {

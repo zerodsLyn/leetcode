@@ -1,24 +1,23 @@
 /**
- * @author gengchao05 create on 2019/04/22
+ * https://leetcode-cn.com/problems/container-with-most-water/
+ * @author zerodsLyn create on 2019/04/22
  */
 public class Q11_ContainerWithMostWater {
     public int maxArea(int[] height) {
-        int size = height.length;
         int maxArea = 0;
-        for (int i = 0; i < size; i++) {
-            for (int j = i + 1; j < size; j++) {
-                int area = area(i, height[i], j, height[j]);
-                maxArea = area > maxArea ? area : maxArea;
+        for (int i = 0; i < height.length - 1; i++) {
+            if (i > 0 && height[i] <= height[i - 1]) {
+                continue;
+            }
+            for (int j = i + 1; j < height.length; j++) {
+                int area = (j - i) * Math.min(height[i], height[j]);
+                if (area > maxArea) {
+                    maxArea = area;
+                }
             }
         }
 
         return maxArea;
-    }
-
-    public int area(int x0, int y0, int x1, int y1) {
-        int base = x0 - x1 > 0 ? x0 - x1 : x1 - x0;
-        int height = y0 - y1 < 0 ? y0 : y1;
-        return base * height;
     }
 
     public static void main(String[] args) {

@@ -1,6 +1,6 @@
 /**
  * https://leetcode-cn.com/problems/the-masseuse-lcci/
- * @author gengchao05 create on 2020/03/24
+ * @author zerodsLyn create on 2020/03/24
  */
 public class Q_Massage {
     public int massage(int[] nums) {

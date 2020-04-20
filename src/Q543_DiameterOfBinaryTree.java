@@ -1,6 +1,6 @@
 /**
  * https://leetcode-cn.com/problems/diameter-of-binary-tree/
- * @author gengchao05 create on 2020/03/10
+ * @author zerodsLyn create on 2020/03/10
  */
 public class Q543_DiameterOfBinaryTree {
     public int diameterOfBinaryTree(TreeNode root) {

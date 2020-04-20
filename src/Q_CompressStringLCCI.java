@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2020/03/16
+ * @author zerodsLyn create on 2020/03/16
  */
 public class Q_CompressStringLCCI {
     public String compressString(String S) {

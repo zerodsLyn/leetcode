@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2020/03/15
+ * @author zerodsLyn create on 2020/03/15
  */
 public class Q_LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {

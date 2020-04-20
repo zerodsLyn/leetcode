@@ -1,20 +1,12 @@
 /**
- * @author gengchao05 create on 2019/06/26
+ * @author zerodsLyn create on 2019/06/26
  */
 
 import java.util.Map;
 import java.util.Stack;
 
 /**
- * Given a string containing just the characters '(', ')', '{', '}', '[' and ']',
- * determine if the input string is valid.
- *
- * An input string is valid if:
- *
- * Open brackets must be closed by the same type of brackets.
- * Open brackets must be closed in the correct order.
- * Note that an empty string is also considered valid.
- *
+ * https://leetcode-cn.com/problems/valid-parentheses/
  */
 public class Q20_ValidParentheses {
     public boolean isValid(String s) {

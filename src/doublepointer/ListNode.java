@@ -1,7 +1,7 @@
 package doublepointer;
 
 /**
- * @author gengchao05 create on 2019/04/07
+ * @author zerodsLyn create on 2019/04/07
  */
 public class ListNode {
     public int val;
