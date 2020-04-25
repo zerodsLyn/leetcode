@@ -99,6 +99,40 @@ public class Q15_3Sum {
         return resultList;
     }
 
+    public List<List<Integer>> threeSum3(int[] nums) {
+        Arrays.sort(nums);
+
+        List<List<Integer>> result = new LinkedList<>();
+
+        for (int i = 0; i < nums.length - 2; i++) {
+            int curInt = nums[i];
+            if (curInt > 0 || (i > 0 && curInt == nums[i - 1])) {
+                continue;
+            }
+
+            int l = i + 1, r = nums.length - 1;
+            while (l < r) {
+                int valL = nums[l], valR = nums[r];
+                int curSum = curInt + valL + valR;
+                if (curSum == 0) {
+                    List<Integer> vals = new ArrayList<>(3);
+                    vals.add(curInt);
+                    vals.add(valL);
+                    vals.add(valR);
+                    result.add(vals);
+                    while (nums[++l] == valL && l < r) {;}
+                    while (nums[--r] == valR && r > l) {;}
+                } else if (curSum < 0) {
+                    l++;
+                } else {
+                    r--;
+                }
+            }
+        }
+
+        return result;
+    }
+
     public static void main(String[] args) {
         System.out.println(new Q15_3Sum().threeSum_2(new int[]{-4, -2, -2, -2, 0, 1, 2, 2, 2, 3, 3, 4, 4, 6, 6}));
         System.out.println(new Q15_3Sum().threeSum_2(new int[]{0, 0, 0, 0, 0}));
