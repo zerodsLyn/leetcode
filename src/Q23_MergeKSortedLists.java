@@ -8,80 +8,44 @@ public class Q23_MergeKSortedLists {
             return null;
         }
 
-        if (lists.length == 1) {
-            return lists[0];
-        }
-
-        return merge(lists, 0, lists.length - 1);
+        return mergeKLists(lists, 0, lists.length - 1);
     }
 
-    public ListNode merge(ListNode[] lists, int left, int right) {
-        if (left == right) {
-            return lists[left];
+    public ListNode mergeKLists(ListNode[] lists, int start, int end) {
+        if (start == end) {
+            return lists[start];
         }
-        int mid = (left + right) / 2;
-        ListNode mergedLeft = merge(lists, left, mid);
-        ListNode mergedRight = merge(lists, mid + 1, right);
-        if (mergedLeft == null) {
-            return mergedRight;
-        }
-        if (mergedRight == null) {
-            return mergedLeft;
-        }
-        return merge(mergedLeft, mergedRight);
+
+        int mid = (start + end) / 2;
+        ListNode left = mergeKLists(lists, start, mid);
+        ListNode right = mergeKLists(lists, mid + 1, end);
+        return mergeListNode(left, right);
     }
 
-    public ListNode merge(ListNode mergedLeft, ListNode mergedRight) {
+    public ListNode mergeListNode(ListNode left, ListNode right) {
+        if (left == null) return right;
+        if (right == null) return left;
+
         ListNode head = new ListNode(-1);
-        ListNode cur = head;
-        while (mergedLeft != null && mergedRight != null) {
-            int leftVal = mergedLeft.val;
-            int rightVal = mergedRight.val;
-
-            if (head.next == null) {
-                if (leftVal < rightVal) {
-                    ListNode tmp = mergedLeft.next;
-                    head.next = mergedLeft;
-                    mergedLeft.next = null;
-                    mergedLeft = tmp;
-                    cur = cur.next;
-                } else {
-                    ListNode tmp = mergedRight.next;
-                    head.next = mergedRight;
-                    mergedRight.next = null;
-                    mergedRight = tmp;
-                    cur = cur.next;
-                }
+        ListNode tmp = head;
+        while (left != null || right != null) {
+            if (left == null) {
+                tmp.next = right;
+                right = right.next;
+            } else if (right == null) {
+                tmp.next = left;
+                left = left.next;
             } else {
-                if (leftVal < rightVal) {
-                    ListNode tmp = mergedLeft.next;
-                    cur.next = mergedLeft;
-                    mergedLeft.next = null;
-                    mergedLeft = tmp;
-                    cur = cur.next;
+                if (left.val < right.val) {
+                    tmp.next = left;
+                    left = left.next;
                 } else {
-                    ListNode tmp = mergedRight.next;
-                    cur.next = mergedRight;
-                    mergedRight.next = null;
-                    mergedRight = tmp;
-                    cur = cur.next;
+                    tmp.next = right;
+                    right = right.next;
                 }
             }
-        }
 
-        while (mergedLeft != null ) {
-            ListNode tmp = mergedLeft.next;
-            cur.next = mergedLeft;
-            mergedLeft.next = null;
-            mergedLeft = tmp;
-            cur = cur.next;
-        }
-        while (mergedRight != null) {
-            ListNode tmp = mergedRight.next;
-            cur.next = mergedRight;
-            mergedRight.next = null;
-            mergedRight = tmp;
-            cur = cur.next;
+            tmp = tmp.next;
         }
 
         return head.next;
