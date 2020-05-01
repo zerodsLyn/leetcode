@@ -7,42 +7,29 @@
  */
 public class Q21_MergeTwoSortedLists {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        if (l1 == null) {
-            return l2;
-        }
-        if (l2 == null) {
-            return l1;
-        }
-
-        ListNode head1 = l1;
-        ListNode head2 = l2;
-        ListNode mergedHead = new ListNode(9999);
-        ListNode pre = mergedHead;
-
-        while (head1 != null && head2 != null) {
-            ListNode tmp;
-            if (head1.val < head2.val) {
-                tmp = head1;
-                head1 = head1.next;
-                pre.next = tmp;
-                pre = pre.next;
-                tmp.next = null;
+        ListNode result = new ListNode(-1);
+        ListNode tmp = result;
+        while (l1 != null || l2 != null) {
+            if (l1 == null) {
+                result.next = new ListNode(l2.val);
+                l2 = l2.next;
+            } else if (l2 == null) {
+                result.next = new ListNode(l1.val);
+                l1 = l1.next;
             } else {
-                tmp = head2;
-                head2 = head2.next;
-                pre.next = tmp;
-                pre = pre.next;
-                tmp.next = null;
+                if (l1.val < l2.val) {
+                    result.next = new ListNode(l1.val);
+                    l1 = l1.next;
+                } else {
+                    result.next = new ListNode(l2.val);
+                    l2 = l2.next;
+                }
             }
+
+            result = result.next;
         }
 
-        if (head1 != null) {
-            pre.next = head1;
-        } else {
-            pre.next = head2;
-        }
-
-        return mergedHead.next;
+        return tmp.next;
     }
 
     public static void main(String[] args) {
