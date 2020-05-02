@@ -10,37 +10,24 @@ import java.util.Map;
 public class Q3_LongestSubstringWithoutRepeatingCharacters {
     public int lengthOfLongestSubstring(String s) {
         int length = s.length();
-        if (length <= 1) {
-            return length;
-        }
+        if (length < 2) return length;
 
-        Map<Character, Integer> char2Index = new HashMap<Character, Integer>();
-
-        int leftIndex = 0;
-        int maxLength = 0;
-        int curLength = 0;
-
-        for (int i = leftIndex; i < length; i++) {
-            char curChar = s.charAt(i);
-            Integer index = char2Index.get(curChar);
-
-            if (index != null && index >= leftIndex) {
-                char2Index.put(s.charAt(i), i);
-
-                curLength = (i - 1) - leftIndex + 1;
-                maxLength = curLength > maxLength ? curLength : maxLength;
-                leftIndex = index + 1;
-                curLength = i - leftIndex + 1;
-            } else {
-                char2Index.put(s.charAt(i), i);
-                curLength++;
+        Map<Character, Integer> char2Index = new HashMap<>(length);
+        int start = 0, end = 0, longestLength = 0;
+        while (end < length) {
+            Character c = s.charAt(end);
+            if (char2Index.containsKey(c) && start < end) {
+                longestLength = Math.max(longestLength, end - start);
+                start = Math.max(char2Index.get(c) + 1, start);
             }
+            char2Index.put(c, end++);
         }
 
-        return maxLength > curLength ? maxLength : curLength;
+        return Math.max(longestLength, length - start);
     }
 
     public static void main(String[] args) {
+        System.out.println(new Q3_LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("abba"));
         System.out.println(new Q3_LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("abcabcbb"));
         System.out.println(new Q3_LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("bbbbb"));
         System.out.println(new Q3_LongestSubstringWithoutRepeatingCharacters().lengthOfLongestSubstring("pwwkew"));
