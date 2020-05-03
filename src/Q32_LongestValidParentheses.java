@@ -1,6 +1,5 @@
-import java.util.Stack;
-
 /**
+ * do not consider (()) situation
  * @author zerodsLyn
  * created on 2020/5/3
  */

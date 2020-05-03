@@ -1,7 +1,7 @@
-import java.util.Arrays;
 import java.util.Stack;
 
 /**
+ * https://leetcode-cn.com/problems/longest-valid-parentheses/
  * @author zerodsLyn
  * created on 2020/5/3
  */
