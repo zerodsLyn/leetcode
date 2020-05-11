@@ -1,7 +1,5 @@
 package binarysearch;
 
-import java.util.Arrays;
-
 /**
  * @author zerodsLyn
  * created on 2020/4/27
