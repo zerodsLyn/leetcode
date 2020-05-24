@@ -72,8 +72,7 @@ public class Q76_MinimumWindowSubstring {
         for (char ch : t.toCharArray()) {
             needs[ch] = needs[ch] + 1;
         }
-        int l = 0, r = 0;
-        int plength = t.length();
+        int l = 0, r = 0, plength = t.length();
 
         //候选字符数
         int count = 0;
@@ -82,9 +81,7 @@ public class Q76_MinimumWindowSubstring {
         while (r < s.length()) {
             char ch = s.charAt(r);
             window[ch] = window[ch] + 1;
-            if (needs[ch] > 0 && needs[ch] >= window[ch]) {
-                count++;
-            }
+            if (needs[ch] > 0 && needs[ch] >= window[ch]) count++;
 
             while (count == plength) {
                 ch = s.charAt(l);
