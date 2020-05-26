@@ -2,9 +2,7 @@
  * @author zerodsLyn create on 2019/06/27
  */
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.PriorityQueue;
+import java.util.*;
 
 /**
  * Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
@@ -16,43 +14,36 @@ import java.util.PriorityQueue;
  *
  */
 public class Q155_MinStack {
-    private int size;
-
-    private ArrayList<Integer> stackData;
-
-    private PriorityQueue<Integer> pq;
+    private PriorityQueue<Integer> priorityQueue;
+    private Stack<Integer> stack;
 
     /** initialize your data structure here. */
     public Q155_MinStack() {
-        stackData = new ArrayList<Integer>(10);
-        pq = new PriorityQueue<Integer>();
-        size = 0;
+        priorityQueue = new PriorityQueue<Integer>(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o1 < o2 ? -1 : (o1.equals(o2) ? 0 : 1);
+            }
+        });
+        stack = new Stack<>();
     }
 
     public void push(int x) {
-        stackData.add(x);
-        pq.add(x);
-        size++;
+        stack.push(x);
+        priorityQueue.offer(x);
     }
 
     public void pop() {
-        if (size > 0) {
-            int top = top();
-            stackData.remove(--size);
-            pq.remove(top);
-        }
+        Integer peek = stack.pop();
+        priorityQueue.remove(peek);
     }
 
     public int top() {
-        if (size > 0) {
-            return stackData.get(size - 1);
-        }
-
-        return -1;
+        return stack.peek();
     }
 
     public int getMin() {
-        return pq.peek();
+        return priorityQueue.peek();
     }
 
     public static void main(String[] args) {
