@@ -1,7 +1,8 @@
 package dp;
 
 /**
- * @author gengchao05 create on 2020/05/29
+ * https://leetcode-cn.com/problems/house-robber/
+ * @author zerodsLyn create on 2020/05/29
  */
 public class Q198_Rob {
     public int rob(int[] nums) {
