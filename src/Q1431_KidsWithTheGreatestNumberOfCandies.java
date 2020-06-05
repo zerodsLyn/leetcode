@@ -4,7 +4,7 @@ import java.util.List;
 
 /**
  * https://leetcode-cn.com/problems/kids-with-the-greatest-number-of-candies/
- * @author gengchao05 create on 2020/06/01
+ * @author zerodsLyn create on 2020/06/01
  */
 public class Q1431_KidsWithTheGreatestNumberOfCandies {
     public List<Boolean> kidsWithCandies(int[] candies, int extraCandies) {

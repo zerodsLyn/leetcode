@@ -3,7 +3,7 @@ package linkedlist;
 import doublepointer.ListNode;
 
 /**
- * @author gengchao05 create on 2020/05/26
+ * @author zerodsLyn create on 2020/05/26
  */
 public class Q142_CircularLinkedList {
     public ListNode detectCycle(ListNode head) {

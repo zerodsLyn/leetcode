@@ -4,7 +4,7 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 /**
- * @author gengchao05 create on 2020/05/25
+ * @author zerodsLyn create on 2020/05/25
  */
 public class Q_AllOne {
     Map<String, Node> map;

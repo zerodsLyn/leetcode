@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2020/05/26
+ * @author zerodsLyn create on 2020/05/26
  */
 public class Q287_FindTheDuplicateNumber {
     public int findDuplicate(int[] nums) {

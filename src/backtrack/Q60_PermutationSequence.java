@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author gengchao05 create on 2020/06/03
+ * @author zerodsLyn create on 2020/06/03
  */
 public class Q60_PermutationSequence {
     int count = 0;
