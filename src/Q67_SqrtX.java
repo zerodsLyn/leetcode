@@ -1,6 +1,6 @@
 /**
  * https://leetcode-cn.com/problems/sqrtx/
- * @author gengchao05 create on 2020/05/25
+ * @author zerodsLyn create on 2020/05/25
  */
 public class Q67_SqrtX {
     public int mySqrt(int x) {

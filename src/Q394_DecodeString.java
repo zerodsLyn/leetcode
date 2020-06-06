@@ -1,7 +1,7 @@
 import java.util.Stack;
 
 /**
- * @author gengchao05 create on 2020/05/28
+ * @author zerodsLyn create on 2020/05/28
  */
 public class Q394_DecodeString {
     public String decodeString(String s) {

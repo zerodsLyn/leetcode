@@ -2,7 +2,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author gengchao05 create on 2020/04/25
+ * @author zerodsLyn create on 2020/04/25
  */
 public class Q_StringMultiply {
     public String multiply(String num1, String num2) {

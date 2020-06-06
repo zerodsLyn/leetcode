@@ -1,7 +1,7 @@
 package dp;
 
 /**
- * @author gengchao05 create on 2020/05/21
+ * @author zerodsLyn create on 2020/05/21
  */
 public class Q5_MaxPalindrome_SubString {
     public String longestPalindrome(String s) {
