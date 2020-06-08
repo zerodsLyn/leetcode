@@ -5,18 +5,15 @@
 public class Q_FindKthMaxElement {
     public int findKthLargest(int[] nums, int k) {
         int len = nums.length;
-        return nums[sort(nums, 0, len - 1, len - k)];
+        return nums[sort(nums, 0, nums.length - 1, nums.length - k)];
     }
 
     private int sort(int[] nums, int l, int r, int index) {
         int pivot = nums[r];
         int leftIndex = l, rightIndex = r - 1;
         while (leftIndex <= rightIndex) {
-            while (rightIndex >= leftIndex && nums[rightIndex] >= pivot)
-                rightIndex--;
-            while (rightIndex >= leftIndex && nums[leftIndex] < pivot)
-                leftIndex++;
-
+            while (rightIndex >= leftIndex && nums[rightIndex] >= pivot) rightIndex--;
+            while (rightIndex >= leftIndex && nums[leftIndex] < pivot) leftIndex++;
             if (leftIndex < rightIndex) {
                 int tmp = nums[leftIndex];
                 nums[leftIndex++] = nums[rightIndex];
