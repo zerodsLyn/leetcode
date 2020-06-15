@@ -5,31 +5,28 @@
 
 public class Q14_LongestCommonPrefix {
     public String longestCommonPrefix(String[] strs) {
-        if (strs == null || strs.length == 0) {
-            return "";
-        }
+        if (strs == null || strs.length == 0 ) return "";
+        if (strs.length == 1) return strs[0];
 
-        if (strs.length == 1) {
-            return strs[0];
-        }
+        int index = 0;
+        boolean flag = true;
+        String curStr = strs[0];
+        if (curStr.length() == 0) return "";
 
-        int finalIndex = -1;
-        int curIndex = 0;
-        while (true) {
-            char c;
-            if (curIndex == strs[0].length()) {
-                return finalIndex == -1 ? "" : strs[0].substring(0, finalIndex + 1);
-            } else {
-                c = strs[0].charAt(curIndex);
-            }
+        while (flag) {
+            char c = curStr.charAt(index);
             for (int i = 1; i < strs.length; i++) {
-                if (curIndex == strs[i].length() || strs[i].charAt(curIndex) != c) {
-                    return finalIndex == -1 ? "" : strs[0].substring(0, finalIndex + 1);
+                if (strs[i].length() == index || strs[i].charAt(index) != c) {
+                    flag = false;
+                    break;
                 }
             }
-            finalIndex = curIndex;
-            curIndex++;
+
+            if (flag) index++;
+            if (index == curStr.length()) break;
         }
+
+        return curStr.substring(0, index);
     }
 
     public static void main(String[] args) {
