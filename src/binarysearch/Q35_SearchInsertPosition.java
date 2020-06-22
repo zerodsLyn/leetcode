@@ -1,7 +1,7 @@
 package binarysearch;
 
 /**
- * @author gengchao05 create on 2020/06/22
+ * @author zerodsLyn create on 2020/06/22
  */
 public class Q35_SearchInsertPosition {
     boolean flag = false;
