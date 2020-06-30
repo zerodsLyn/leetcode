@@ -3,7 +3,7 @@ package datastructure;
 import java.util.Stack;
 
 /**
- * @author gengchao05 create on 2020/06/30
+ * @author zerodsLyn create on 2020/06/30
  */
 public class Q_QueueWithStack {
     int size;
