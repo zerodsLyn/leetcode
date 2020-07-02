@@ -1,7 +1,7 @@
 import java.util.Arrays;
 
 /**
- * @author gengchao05 create on 2020/07/02
+ * @author zerodsLyn create on 2020/07/02
  */
 public class Q378KthSmallestElementInASortedMatrix {
     public int kthSmallest(int[][] matrix, int k) {
