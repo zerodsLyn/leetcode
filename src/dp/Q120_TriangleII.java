@@ -3,7 +3,7 @@ package dp;
 import java.util.List;
 
 /**
- * @author gengchao05 create on 2020/07/14
+ * @author zerodsLyn create on 2020/07/14
  */
 public class Q120_TriangleII {
     public int minimumTotal(List<List<Integer>> triangle) {
