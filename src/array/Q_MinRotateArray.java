@@ -6,27 +6,33 @@ package array;
 public class Q_MinRotateArray {
 
     public int minArray(int[] numbers) {
-        int n = numbers.length;
-        int loIndex = 0, hiIndex = n - 1;
+        return findMin(numbers, 0, numbers.length - 1);
+    }
 
-        while (loIndex < hiIndex) {
-            int mid = (loIndex + hiIndex) / 2;
-            if ((mid == 0 && numbers[mid] < numbers[mid + 1]) ||
-                    (numbers[mid] < numbers[mid + 1] && numbers[mid] < numbers[mid - 1])) {
-                return numbers[mid];
-            }
-            if (numbers[mid] <= numbers[hiIndex]) {
-                hiIndex = mid - 1;
-            } else {
-                loIndex = mid + 1;
-            }
-        }
+    private int findMin(int[] numbers, int loIndex, int hiIndex) {
+        if (loIndex >= hiIndex) return numbers[loIndex];
+        int mid = (loIndex + hiIndex) / 2;
+        // 找到了极值点
+        if (numbers[mid] > numbers[mid + 1]) return numbers[mid + 1];
+        if (mid > loIndex && numbers[mid] < numbers[mid - 1]) return numbers[mid];
 
-        return numbers[loIndex];
+        // 先增后减再增 mid在第一个增区间，最小值在第二个增区间
+        if (numbers[mid] > numbers[hiIndex]) return findMin(numbers, mid + 1, hiIndex);
+        // ①递增 ②先增后减再增 mid在第二个增区间，最小值在第二个增区间，但是需要取前半区
+        else if (numbers[mid] < numbers[hiIndex]) return findMin(numbers, loIndex, mid - 1);
+
+        else if (numbers[mid] > numbers[loIndex]) return numbers[loIndex];
+        else if (numbers[mid] < numbers[loIndex]) return findMin(numbers, loIndex, mid - 1);
+        else return Math.min(findMin(numbers, loIndex, mid - 1), findMin(numbers, mid + 1, hiIndex));
     }
 
     public static void main(String[] args) {
         Q_MinRotateArray q_minRotateArray = new Q_MinRotateArray();
+        System.out.println(q_minRotateArray.minArray(new int[] {2,0,0,1,2}));
+        System.out.println(q_minRotateArray.minArray(new int[] {3,3,3,3,3,3,3,3,1,3}));
+        System.out.println(q_minRotateArray.minArray(new int[] {1, 3}));
+        System.out.println(q_minRotateArray.minArray(new int[] {10, 1, 10, 10, 10}));
+        System.out.println(q_minRotateArray.minArray(new int[] {3, 3, 1, 3}));
         System.out.println(q_minRotateArray.minArray(new int[] {3, 1, 1}));
         System.out.println(q_minRotateArray.minArray(new int[] {1, 3, 3}));
         System.out.println(q_minRotateArray.minArray(new int[] {1, 3, 5}));
@@ -35,6 +41,7 @@ public class Q_MinRotateArray {
         System.out.println(q_minRotateArray.minArray(new int[] {5, 1, 3, 4}));
         System.out.println(q_minRotateArray.minArray(new int[] {3, 4, 5, 1, 2}));
         System.out.println(q_minRotateArray.minArray(new int[] {2, 2, 2, 0, 1}));
+        System.out.println(q_minRotateArray.minArray(new int[] {2, 2, 2, 2, 3, 4}));
     }
 
 }
