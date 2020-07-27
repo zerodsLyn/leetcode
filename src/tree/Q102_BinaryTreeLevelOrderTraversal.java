@@ -13,23 +13,18 @@ public class Q102_BinaryTreeLevelOrderTraversal {
         List<List<Integer>> result = new LinkedList<>();
         if (root == null) return result;
 
-        List<TreeNode> curLevel = new LinkedList<>();
-        curLevel.add(root);
-
-        while (curLevel.size() > 0) {
-            List<TreeNode> tmp = new LinkedList<>();
-
-            List<Integer> curLevelNum = new LinkedList<>();
-            for (TreeNode node : curLevel) {
-                curLevelNum.add(node.val);
-                if (node.left != null) tmp.add(node.left);
-                if (node.right != null) tmp.add(node.right);
+        LinkedList<TreeNode> nodes = new LinkedList<>();
+        nodes.offer(root);
+        while (!nodes.isEmpty()) {
+            List<Integer> curRow = new LinkedList<>();
+            int size = nodes.size();
+            for (int i = 0; i < size; i++) {
+                TreeNode cur = nodes.poll();
+                curRow.add(cur.val);
+                if (cur.left != null) nodes.offer(cur.left);
+                if (cur.right != null) nodes.offer(cur.right);
             }
-
-            curLevel = tmp;
-            if (curLevelNum.size() > 0) {
-                result.add(curLevelNum);
-            }
+            result.add(curRow);
         }
 
         return result;
