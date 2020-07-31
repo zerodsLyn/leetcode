@@ -14,6 +14,7 @@ public class Q146_LRUCacheII {
     public Q146_LRUCacheII(int capacity) {
         this.size = 0;
         this.capacity = capacity;
+        // 哨兵节点
         this.head = new Node();
         this.tail = head;
         this.map = new HashMap<>(capacity);
@@ -29,6 +30,11 @@ public class Q146_LRUCacheII {
         return val;
     }
 
+    /**
+     * 最新访问的接地那直接尾插，代码更容易写
+     * @param key
+     * @param value
+     */
     public void put(int key, int value) {
         Node node;
         if (map.containsKey(key)) {
