@@ -10,33 +10,38 @@ public class Q25_ReverseKGroupList {
         ListNode listNode = new ListNode(1);
         listNode.next = new ListNode(2);
         listNode.next.next = new ListNode(3);
+        listNode.next.next.next = new ListNode(4);
+        listNode.next.next.next.next = new ListNode(5);
 
-        System.out.println(listNode);
+//        System.out.println(new Q25_ReverseKGroupList().reverseKGroup(listNode, 2));
+//        System.out.println(new Q25_ReverseKGroupList().reverseKGroup(listNode, 3));
+//        System.out.println(new Q25_ReverseKGroupList().reverseKGroup(listNode, 4));
+        System.out.println(new Q25_ReverseKGroupList().reverseKGroup(listNode, 5));
     }
 
     public ListNode reverseKGroup(ListNode head, int k) {
         if (k < 2) return head;
-        ListNode firstHead = null, prevEnd = null;
-        ListNode curHead = head, curEnd = head, nextHead = null;
-        int i = 0;
-        while (i < k || curEnd != null) {
+        ListNode result = null;
+        ListNode prevEnd = null, curHead = head, curEnd = head;
+        ListNode nextHead;
+        int i = 1;
+        while (curEnd != null) {
             if (i < k) {
                 curEnd = curEnd.next;
                 i++;
             } else {
-                if (firstHead == null) firstHead = curEnd;
+                i = 1;
                 nextHead = curEnd.next;
-
+                if (result == null) result = curEnd;
                 reverseLinkedList(curHead, curEnd);
-
                 if (prevEnd != null) prevEnd.next = curEnd;
-                prevEnd = curHead;
-
-                curHead = nextHead;
-                curEnd = nextHead;
+                prevEnd = curHead; curHead = nextHead; curEnd = curHead;
             }
         }
-        return firstHead;
+
+        if (result == null) return head;
+        prevEnd.next = curHead;
+        return result;
     }
 
     private void reverseLinkedList(ListNode head, ListNode end) {
