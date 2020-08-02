@@ -8,30 +8,28 @@ package tree;
 public class Q98_ValidBinarySearchTree {
     public boolean isValidBST(TreeNode root) {
         if (root == null) return true;
-
-        int midVal = root.val;
-        boolean leftValid = root.left == null || (midVal > findMax(root.left) && isValidBST(root.left));
-        boolean rightValid = root.right == null || (midVal < findMin(root.right) && isValidBST(root.right));
-
-        return leftValid && rightValid;
+        boolean left = true, right = true;
+        if (root.left != null) left = max(root.left) < root.val && isValidBST(root.left);
+        if (root.right != null) right = min(root.right) > root.val && isValidBST(root.right);
+        return left && right;
     }
 
-    public int findMax(TreeNode treeNode) {
-        int max = treeNode.val;
-        while (treeNode != null) {
-            max = treeNode.val;
-            treeNode = treeNode.right;
-        }
-        return max;
-    }
-
-    public int findMin(TreeNode treeNode) {
-        int min = treeNode.val;
-        while (treeNode != null) {
-            min = treeNode.val;
-            treeNode = treeNode.left;
+    private int min(TreeNode root) {
+        int min = root.val;
+        while (root.left != null) {
+            min = root.left.val;
+            root = root.left;
         }
         return min;
+    }
+
+    private int max(TreeNode root) {
+        int max = root.val;
+        while (root.right != null) {
+            max = root.right.val;
+            root = root.right;
+        }
+        return max;
     }
 
     public static void main(String[] args) {
