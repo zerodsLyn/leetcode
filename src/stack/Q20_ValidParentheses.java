@@ -1,3 +1,5 @@
+package stack;
+
 import java.util.Stack;
 
 /**
@@ -6,34 +8,29 @@ import java.util.Stack;
  */
 public class Q20_ValidParentheses {
     public boolean isValid(String s) {
-        Stack<Character> chars = new Stack<>();
-        int len = s.length();
-        if (len == 0) return true;
-        if (len % 2 == 1) return false;
-
-        chars.push(s.charAt(0));
-        for (int i = 1; i < len; i++) {
+        int len;
+        if (s == null || (len = s.length()) == 0) return true;
+        Stack<Character> stack = new Stack<>();
+        for (int i = 0; i < len; i++) {
             char c = s.charAt(i);
-            if (c == '(' || c == '[' || c == '{') {
-                chars.push(c);
-            } else {
-                if (chars.size() == 0) return false;
-
-                char peek = chars.peek();
-                if (c == ')') {
-                    if (peek == '(') chars.pop();
+            if (c == ']' || c == '}' || c == ')') {
+                if (stack.isEmpty()) return false;
+                char peek = stack.peek();
+                if (c == ']') {
+                    if (peek == '[') stack.pop();
                     else return false;
-                } else if (c == ']') {
-                    if (peek == '[') chars.pop();
+                } else if (c == '}') {
+                    if (peek == '{') stack.pop();
                     else return false;
                 } else {
-                    if (peek == '{') chars.pop();
+                    if (peek == '(') stack.pop();
                     else return false;
                 }
+            } else {
+                stack.push(c);
             }
         }
-
-        return chars.size() == 0;
+        return stack.isEmpty();
     }
 
     public static void main(String[] args) {
