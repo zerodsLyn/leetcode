@@ -1,3 +1,5 @@
+package array;
+
 import java.util.Arrays;
 import java.util.Comparator;
 import java.util.LinkedList;
@@ -66,6 +68,28 @@ public class Q56_MergeIntervals {
         public int left() {
             return this.left;
         }
+    }
+
+    public int[][] mergeII(int[][] intervals) {
+        Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
+        int[][] result = new int[intervals.length][2];
+        int len = 0;
+        int[] curPair = null;
+        for (int[] pair : intervals) {
+            if (curPair == null) curPair = pair;
+            else if (pair[0] <= curPair[1]) curPair[1] = Math.max(curPair[1], pair[1]);
+            else {
+                result[len++] = curPair;
+                curPair = pair;
+            }
+        }
+
+        if (curPair != null) result[len++] = curPair;
+        int[][] finalResult = new int[len][2];
+        for (int i = 0; i < len; i++) {
+            finalResult[i] = result[i];
+        }
+        return finalResult;
     }
 
     public static void main(String[] args) {
