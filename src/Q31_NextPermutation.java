@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2020/06/18
+ * @author zerodsLyn create on 2020/06/18
  */
 public class Q31_NextPermutation {
     public void nextPermutation(int[] nums) {

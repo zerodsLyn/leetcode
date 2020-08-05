@@ -3,7 +3,7 @@ package linkedlist;
 import doublepointer.ListNode;
 
 /**
- * @author gengchao05 create on 2020/07/31
+ * @author zerodsLyn create on 2020/07/31
  */
 public class Q141_HasCycle {
     public boolean hasCycle(ListNode head) {

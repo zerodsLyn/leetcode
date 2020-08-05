@@ -1,7 +1,7 @@
 package quicksort;
 
 /**
- * @author gengchao05 create on 2020/07/30
+ * @author zerodsLyn create on 2020/07/30
  */
 public class Q215_FindKthLargestNum {
     public int findKthLargest(int[] nums, int k) {

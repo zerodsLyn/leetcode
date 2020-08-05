@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2020/06/30
+ * @author zerodsLyn create on 2020/06/30
  */
 public class Q283_MoveZeroes {
     public void moveZeroes(int[] nums) {

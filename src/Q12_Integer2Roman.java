@@ -108,5 +108,7 @@ public class Q12_Integer2Roman {
         System.out.println(new Q12_Integer2Roman().intToRoman(9));
         System.out.println(new Q12_Integer2Roman().intToRoman(58));
         System.out.println(new Q12_Integer2Roman().intToRoman(1994));
+        Character c = '1';
+        System.out.println(Character.digit(c, 10));
     }
 }

@@ -1,7 +1,7 @@
 package array;
 
 /**
- * @author gengchao05 create on 2020/07/22
+ * @author zerodsLyn create on 2020/07/22
  */
 public class Q_MinRotateArray {
 

@@ -5,7 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 /**
- * @author gengchao05 create on 2020/07/13
+ * @author zerodsLyn create on 2020/07/13
  */
 public class Q350_IntersectionOfTwoArrays {
     public int[] intersect(int[] nums1, int[] nums2) {

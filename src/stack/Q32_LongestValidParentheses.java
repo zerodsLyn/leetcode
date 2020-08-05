@@ -3,7 +3,7 @@ package stack;
 import java.util.Stack;
 
 /**
- * @author gengchao05 create on 2020/08/05
+ * @author zerodsLyn create on 2020/08/05
  */
 public class Q32_LongestValidParentheses {
     public int longestValidParentheses(String s) {

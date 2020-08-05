@@ -3,7 +3,7 @@ package array;
 import java.util.Arrays;
 
 /**
- * @author gengchao05 create on 2020/07/02
+ * @author zerodsLyn create on 2020/07/02
  */
 public class Q189_RotateArray {
     public void rotate(int[] nums, int k) {

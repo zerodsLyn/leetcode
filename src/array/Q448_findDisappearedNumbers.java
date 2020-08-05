@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * @author gengchao05 create on 2020/07/24
+ * @author zerodsLyn create on 2020/07/24
  */
 public class Q448_findDisappearedNumbers {
     public List<Integer> findDisappearedNumbers(int[] nums) {

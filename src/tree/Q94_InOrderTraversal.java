@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.Stack;
 
 /**
- * @author gengchao05 create on 2020/07/28
+ * @author zerodsLyn create on 2020/07/28
  */
 public class Q94_InOrderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {

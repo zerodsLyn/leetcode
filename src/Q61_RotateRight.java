@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 /**
- * @author gengchao05 create on 2020/06/12
+ * @author zerodsLyn create on 2020/06/12
  */
 public class Q61_RotateRight {
     public ListNode rotateRight(ListNode head, int k) {

@@ -1,7 +1,7 @@
 package tree;
 
 /**
- * @author gengchao05 create on 2020/08/04
+ * @author zerodsLyn create on 2020/08/04
  */
 public class Q110_BalancedTree {
     public boolean isBalanced(TreeNode root) {

@@ -1,5 +1,5 @@
 /**
- * @author gengchao05 create on 2020/06/23
+ * @author zerodsLyn create on 2020/06/23
  */
 public class Q67_AddBinary {
     public String addBinary(String a, String b) {

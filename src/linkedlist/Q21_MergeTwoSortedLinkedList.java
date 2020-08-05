@@ -1,5 +1,7 @@
 package linkedlist;
 
+import doublepointer.ListNode;
+
 /**
  * @author zerodsLyn create on 2020/06/13
  */

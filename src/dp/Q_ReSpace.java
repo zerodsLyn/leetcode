@@ -5,7 +5,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 /**
- * @author gengchao05 create on 2020/07/09
+ * @author zerodsLyn create on 2020/07/09
  */
 public class Q_ReSpace {
     public int respace(String[] dictionary, String sentence) {

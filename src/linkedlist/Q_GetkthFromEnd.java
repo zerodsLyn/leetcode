@@ -3,7 +3,7 @@ package linkedlist;
 import doublepointer.ListNode;
 
 /**
- * @author gengchao05 create on 2020/07/24
+ * @author zerodsLyn create on 2020/07/24
  */
 public class Q_GetkthFromEnd {
     public ListNode getKthFromEnd(ListNode head, int k) {

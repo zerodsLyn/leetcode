@@ -1,7 +1,7 @@
 package tree;
 
 /**
- * @author gengchao05 create on 2020/06/29
+ * @author zerodsLyn create on 2020/06/29
  */
 public class Q226_InvertTree {
     public TreeNode invertTree(TreeNode root) {

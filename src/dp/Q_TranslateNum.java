@@ -1,7 +1,7 @@
 package dp;
 
 /**
- * @author gengchao05 create on 2020/06/09
+ * @author zerodsLyn create on 2020/06/09
  */
 public class Q_TranslateNum {
     public int translateNum(int num) {
