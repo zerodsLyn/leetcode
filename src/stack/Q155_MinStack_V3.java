@@ -1,8 +1,8 @@
-/**
+package stack; /**
  * @author zerodsLyn create on 2019/06/27
  */
 
-import java.util.*;
+import java.util.Stack;
 
 /**
  * Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
@@ -13,46 +13,45 @@ import java.util.*;
  * getMin() -- Retrieve the minimum element in the stack.
  *
  */
-public class Q155_MinStack {
-    private PriorityQueue<Integer> priorityQueue;
-    private Stack<Integer> stack;
+public class Q155_MinStack_V3 {
+
+    Stack<Integer> dataStack;
+    Stack<Integer> minStack;
 
     /** initialize your data structure here. */
-    public Q155_MinStack() {
-        priorityQueue = new PriorityQueue<Integer>(new Comparator<Integer>() {
-            @Override
-            public int compare(Integer o1, Integer o2) {
-                return o1 < o2 ? -1 : (o1.equals(o2) ? 0 : 1);
-            }
-        });
-        stack = new Stack<>();
+    public Q155_MinStack_V3() {
+        dataStack = new Stack<>();
+        minStack = new Stack<>();
     }
 
     public void push(int x) {
-        stack.push(x);
-        priorityQueue.offer(x);
+        dataStack.push(x);
+        if (minStack.size() == 0 || x <= minStack.peek()) {
+            minStack.push(x);
+        }
     }
 
     public void pop() {
-        Integer peek = stack.pop();
-        priorityQueue.remove(peek);
+        Integer peek = dataStack.pop();
+        if (peek.equals(minStack.peek())) {
+            minStack.pop();
+        }
     }
 
     public int top() {
-        return stack.peek();
+        return dataStack.peek();
     }
 
     public int getMin() {
-        return priorityQueue.peek();
+        return minStack.peek();
     }
 
     public static void main(String[] args) {
-        Q155_MinStack minStack = new Q155_MinStack();
-        minStack.push(2);
-        minStack.push(0);
-        minStack.push(3);
-        minStack.push(0);
-        System.out.println(minStack.getMin());
+        Q155_MinStack_V3 minStack = new Q155_MinStack_V3();
+        minStack.push(512);
+        minStack.push(-1024);
+        minStack.push(-1024);
+        minStack.push(512);
         minStack.pop();
         System.out.println(minStack.getMin());
         minStack.pop();

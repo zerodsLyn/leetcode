@@ -1,3 +1,7 @@
+package linkedlist;
+
+import doublepointer.ListNode;
+
 /**
  * https://leetcode-cn.com/problems/reverse-nodes-in-k-group/
  * @author zerodsLyn create on 2020/03/13

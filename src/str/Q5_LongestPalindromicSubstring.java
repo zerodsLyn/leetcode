@@ -1,3 +1,5 @@
+package str;
+
 /**
  * https://leetcode-cn.com/problems/longest-palindromic-substring/
  * @author zerodsLyn create on 2019/04/11

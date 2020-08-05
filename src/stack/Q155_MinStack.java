@@ -1,9 +1,8 @@
-/**
+package stack; /**
  * @author zerodsLyn create on 2019/06/27
  */
 
-import java.util.ArrayList;
-import java.util.PriorityQueue;
+import java.util.*;
 
 /**
  * Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
@@ -14,49 +13,41 @@ import java.util.PriorityQueue;
  * getMin() -- Retrieve the minimum element in the stack.
  *
  */
-public class Q155_MinStack_V2 {
-    private ArrayList<Integer> stackData;
-
-    private ArrayList<Integer> minStack;
+public class Q155_MinStack {
+    private PriorityQueue<Integer> priorityQueue;
+    private Stack<Integer> stack;
 
     /** initialize your data structure here. */
-    public Q155_MinStack_V2() {
-        stackData = new ArrayList<Integer>();
-        minStack = new ArrayList<Integer>();
+    public Q155_MinStack() {
+        priorityQueue = new PriorityQueue<Integer>(new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o1 < o2 ? -1 : (o1.equals(o2) ? 0 : 1);
+            }
+        });
+        stack = new Stack<>();
     }
 
     public void push(int x) {
-        stackData.add(x);
-        if (minStack.isEmpty() || minStack.get(minStack.size() - 1) >= x) {
-            minStack.add(x);
-        }
+        stack.push(x);
+        priorityQueue.offer(x);
     }
 
     public void pop() {
-        if (stackData.size() > 0) {
-            int top = top();
-            int min = getMin();
-            stackData.remove(stackData.size() - 1);
-            if (top == min) {
-                minStack.remove(minStack.size() - 1);
-            }
-        }
+        Integer peek = stack.pop();
+        priorityQueue.remove(peek);
     }
 
     public int top() {
-        if (stackData.size() > 0) {
-            return stackData.get(stackData.size() - 1);
-        }
-
-        return -1;
+        return stack.peek();
     }
 
     public int getMin() {
-        return minStack.get(minStack.size() - 1);
+        return priorityQueue.peek();
     }
 
     public static void main(String[] args) {
-        Q155_MinStack_V2 minStack = new Q155_MinStack_V2();
+        Q155_MinStack minStack = new Q155_MinStack();
         minStack.push(2);
         minStack.push(0);
         minStack.push(3);

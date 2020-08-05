@@ -1,3 +1,7 @@
+package linkedlist;
+
+import doublepointer.ListNode;
+
 /**
  * https://leetcode-cn.com/problems/reverse-linked-list/
  * @author zerodsLyn create on 2019/06/13

@@ -1,3 +1,5 @@
+package linkedlist;
+
 /**
  * @author zerodsLyn create on 2020/06/13
  */

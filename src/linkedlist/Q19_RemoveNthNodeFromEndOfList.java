@@ -1,6 +1,8 @@
-/**
+package linkedlist; /**
  * @author zerodsLyn create on 2019/06/13
  */
+
+import doublepointer.ListNode;
 
 /**
  * https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/

@@ -1,3 +1,7 @@
+package linkedlist;
+
+import doublepointer.ListNode;
+
 /**
  * https://leetcode-cn.com/problems/add-two-numbers/
  * @author zerodsLyn create on 2019/04/07

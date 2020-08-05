@@ -1,3 +1,7 @@
+package linkedlist;
+
+import doublepointer.ListNode;
+
 /**
  * @author zerodsLyn
  * created on 2020/5/16

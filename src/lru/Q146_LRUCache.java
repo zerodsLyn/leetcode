@@ -1,5 +1,6 @@
+package lru;
+
 import java.util.HashMap;
-import java.util.LinkedList;
 
 /**
  * https://leetcode-cn.com/problems/lru-cache/
