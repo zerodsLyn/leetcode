@@ -10,6 +10,7 @@ import java.util.Stack;
 public class Q94_InOrderTraversal {
     public List<Integer> inorderTraversal(TreeNode root) {
         List<Integer> result = new LinkedList<>();
+
         Stack<TreeNode> stack = new Stack<>();
         TreeNode cur = root;
 
