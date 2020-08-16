@@ -44,7 +44,5 @@ public class Q98_ValidBinarySearchTree {
         treeNode15.right = treeNode20;
 
         System.out.println(new Q98_ValidBinarySearchTree().isValidBST(treeNode10));
-
-
     }
 }
