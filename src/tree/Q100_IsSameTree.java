@@ -10,7 +10,8 @@ public class Q100_IsSameTree {
         else if (q == null) return false;
         else if (p == null) return false;
 
-        return p.val == q.val && isSameTree(p.left, q.left)
+        return p.val == q.val
+                && isSameTree(p.left, q.left)
                 && isSameTree(p.right, q.right);
     }
 }
