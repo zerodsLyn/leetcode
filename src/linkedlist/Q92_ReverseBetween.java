@@ -13,7 +13,7 @@ public class Q92_ReverseBetween {
         int curIndex = 1;
         boolean startFind = false;
         ListNode prevEnd = null, cur = head, nextHead = cur.next;
-        ListNode start = null, end;
+        ListNode start = null;
 
         while (curIndex < n) {
             if (curIndex == m) {
@@ -27,14 +27,15 @@ public class Q92_ReverseBetween {
             curIndex++;
         }
 
-        end = cur;
-        reverse(start, end, prevEnd, nextHead);
+        ListNode newHead = reverse(prevEnd, start, nextHead);
+        if (m == 1) return newHead;
         return head;
     }
 
-    public ListNode reverse(ListNode head, ListNode end, ListNode prevEnd, ListNode nextHead) {
-        ListNode cur = head;
+    public ListNode reverse(ListNode prevEnd, ListNode start, ListNode nextHead) {
+        ListNode cur = start;
         ListNode next = cur.next;
+
         while (next != nextHead) {
             ListNode tmp = next.next;
             next.next = cur;
@@ -43,7 +44,12 @@ public class Q92_ReverseBetween {
         }
 
         if (prevEnd != null) prevEnd.next = cur;
-        head.next = nextHead;
+        start.next = nextHead;
         return cur;
+    }
+
+    public static void main(String[] args) {
+        ListNode head = new ListNode(3, new ListNode(5));
+        System.out.println(new Q92_ReverseBetween().reverseBetween(head, 1, 2));
     }
 }
