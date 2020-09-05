@@ -3,6 +3,7 @@ package array;
 import java.util.PriorityQueue;
 
 /**
+ * https://leetcode-cn.com/problems/third-maximum-number/
  * @author zerodsLyn
  * created on 2020/9/2
  */
