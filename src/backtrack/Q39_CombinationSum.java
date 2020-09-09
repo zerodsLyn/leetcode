@@ -11,40 +11,29 @@ import java.util.List;
  * @author zerodsLyn create on 2020/03/02
  */
 public class Q39_CombinationSum {
+    List<List<Integer>> result = new LinkedList<>();
+
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
-        if (candidates == null || candidates.length == 0) {
-            return new ArrayList<>(0);
-        }
-
         Arrays.sort(candidates);
-        List<List<Integer>> result = new LinkedList<>();
-        LinkedList<Integer> curNums = new LinkedList<>();;
-        backtrack(result, candidates, target, curNums, 0, 0);
-
+        backtrace(new LinkedList<>(), candidates, 0, target);
         return result;
     }
 
-    private void backtrack(List<List<Integer>> result, int[] candidates, int target, LinkedList<Integer> curNums, int tempSum, int start) {
-        // exit
-        if (tempSum == target) {
-            result.add(new LinkedList<>(curNums));
+    private void backtrace(LinkedList<Integer> singleRow, int[] candidates, int curSum, int target) {
+        if (curSum == target) {
+            result.add(new LinkedList<>(singleRow));
+            return;
+        } else if (curSum > target) {
             return;
         }
 
-        for (int i = start; i < candidates.length; i++) {
-            int num = candidates[i];
-            // filter
-            if (tempSum + num > target) {
+        for (int num : candidates) {
+            if (singleRow.size() > 0 && num < singleRow.getLast()) {
                 continue;
             }
-            if (curNums.size() > 0) {
-                if (num < curNums.get(curNums.size() - 1)) {
-                    continue;
-                }
-            }
-            curNums.add(num);
-            backtrack(result, candidates, target, curNums, tempSum + num, start);
-            curNums.removeLast();
+            singleRow.add(num);
+            backtrace(singleRow, candidates, curSum + num, target);
+            singleRow.removeLast();
         }
     }
 
