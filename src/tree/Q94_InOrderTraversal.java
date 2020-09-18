@@ -13,7 +13,6 @@ public class Q94_InOrderTraversal {
 
         Stack<TreeNode> stack = new Stack<>();
         TreeNode cur = root;
-
         while (cur != null || !stack.isEmpty()) {
             while (cur != null) {
                 stack.push(cur);
